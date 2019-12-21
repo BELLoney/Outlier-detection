@@ -9,7 +9,7 @@ The details of data preprocessing and description are shown as fllows.
 
 | No | Data set | Abbreviation | Preprocessing | numerical | categorical | Oulier | Normal | 
 | -------- |-------- |-------- |-------- |-------- | -------- | --------| -------- |
-|  1  | Lymphography | Lymp | Classes ''1'' and ''4'' are considered as outliers[2] | 0 | 8 | 6 | 142 |  
+|  1  | Lymphography | Lymp | Classes ''1'' and ''4'' are considered as outliers [2] | 0 | 8 | 6 | 142 |  
 | 2| Mushroom|Mush| Downsampling the class ''+" down to 221 objects | 0|22|221|4208| 
 | 3| Diabetes|Diab| Downsampling the class ''tested\_positive" down to 26 objects |8|0|26|500|
 |4| Ionosphere|Iono| Downsampling the class ''b" down to 24 objects |34|0|24|225|
@@ -18,7 +18,7 @@ The details of data preprocessing and description are shown as fllows.
 | 7| Sonar|Sonar| Downsampling the class ''M" down to 10 objects|60|0|10|97|  
 | 8| Wisconsin diagnostic breast cancer|Wdbc| Downsampling the class ``M" down to 39 objects | 31|0|39|357|
 | 9| Page blocks|Page| Downsampling the class ''Non-text" down to 258 objects |10|0|258|4913|
-| 10| Wisconsin breast cancer|Wbc|202 ''malignant" (outlier) and 14 ``benign" objects were removed[2] | 9|0|39|444|
+| 10| Wisconsin breast cancer|Wbc|202 ''malignant" (outlier) and 14 ``benign" objects were removed [2] | 9|0|39|444|
 |  11| Yeast|Yeast|Classes ''ERL" (outlier), ''CYT", ''NUC", and ''MIT" are selected [3]|8|0|5|1136|
 | 12| Credit approval|Cred| Downsampling the class ``+" down to 42 objects|6|9|42|383|
 | 13| German|Germ| Downsampling the class ``2" down to 14 objects|7|13|14|700|
