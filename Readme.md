@@ -1,9 +1,11 @@
 # Outlier-detection
 Data set; Program files
 
+Remark: Relevant algorithm code will be uploaded one after another, welcome to download, discuss and exchange!
+
 In order to evaluate the effectiveness of an outlier detection algorithm, 16 data sets (including numeric, categorical, and mixed attributes) are selected from the UCI machine learning repository for experiments.
 
-Most of these data sets are used for the evaluation of classification and clustering methods. By contrast, for the evaluation of outlier detection, there are very few existing data sets. Accordingly, this paper uses the downsampling method proposed in the document [1] to obtain some data sets for evaluating outlier detection. The method randomly downsamples a particular class to produce outliers while preserving all objects of the remaining classes to form an outlier detection data set. In addition, for the missing values of data set, this paper uses the maximum probability value method to complete the missing value, that is, the value of attribute with the highest frequency on other objects is used to fill the missing attribute value.
+Most of these data sets are used for the evaluation of classification and clustering methods. By contrast, for the evaluation of outlier detection, there are very few existing data sets. Accordingly, this paper uses the downsampling method proposed in the document [1] to obtain some data sets for evaluating outlier detection. The method randomly downsamples a particular class to produce outliers while preserving all objects of the remaining classes to form an outlier detection data set. In addition, for the missing values of data set, this paper uses the maximum probability value method to complete the missing value, that is, the value of attribute with the highest frequency on other objects is used to fill the missing attribute value [4,5].
 
 The details of data preprocessing and description are shown as fllows.
 
@@ -32,3 +34,7 @@ The details of data preprocessing and description are shown as fllows.
 [2] Z. Y. He, X. F. Xu, and S. C. Deng, “Discovering cluster-based local outliers,” Pattern Recognition Letters, vol. 24, no. 9–10, pp. 1641–1650, 2003.
 
 [3] F. Jiang and Y. M. Chen, “Outlier detection based on granular computing and rough set theory,” Applied Intelligence, vol. 42, no. 2, pp. 303–322, 2015.
+
+[4] Z. Yuan and H.M Chen, et al. "Fuzzy information entropy-based adaptive approach for hybrid feature outlier detection." Fuzzy Sets and Systems (2020). DOI:https://doi.org/10.1016/j.fss.2020.10.017.
+
+[5] Z. Yuan, X.Y. Zhang, and S. Feng. "Hybrid data-driven outlier detection based on neighborhood information entropy and its developmental measures." Expert Systems with Applications 112 (2018): 243-257.
