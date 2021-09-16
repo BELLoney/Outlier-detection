@@ -1,5 +1,5 @@
 %%Detecting Fuzzy Information Entropy-based Outlier Detection (FIEOD) algorithm
-%%Please refer to the following papers: 
+%%Please refer to the following paper: 
 %%Yuan Zhong, Chen Hongmei, Li Tianrui, Liu Jia, ShuWang. 
 %%Fuzzy information entropy-based adaptive approach for hybrid feature
 %%outlier detection,Fuzzy Sets and Systems,2021.
