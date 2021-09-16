@@ -21,7 +21,7 @@ weight=zeros(n,m);
 Epsilon=zeros(1,m); 
 for j=1:m
     if min(data(:,j))==0&&max(data(:,j))==1
-     Epsilon(j)=std(data(:,j),1)/delta; 
+     Epsilon(j)=std(data(:,j),1)/delta;
     end
 end
 %%%%%%%%%%%%%compute fuzzy relation matrices with a single attribute%%%%%%%%%
@@ -29,16 +29,16 @@ end
         col=l;
         r=[];
         eval(['ssr' num2str(col) '=[];']);
-        for j=1:n      
+        for j=1:n   
             a=data(j,col);
-            x=data(:,col);       
+            x=data(:,col);     
             for k=1:j
                 r(j,k)=ufrs_kersim(a,x(k),Epsilon(l));
                 r(k,j)=r(j,k);
             end
         end
         eval(['ssr' num2str(col) '=r;']);
-    end 
+    end
     
   FE_x=zeros(n,m);
   FRC_x=zeros(n,m);
@@ -81,9 +81,9 @@ for r=1:n
  FOD_temp=RFE(r,:);
     for s=1:m
         if FRC_x(r,s)>0
-          FOD_Xl(r,s)=FOD_temp(s)*((n-abs(FRC_x(r,s)))/(2*n));  
+          FOD_Xl(r,s)=FOD_temp(s)*((n-abs(FRC_x(r,s)))/(2*n)); 
         else 
-          FOD_Xl(r,s)=FOD_temp(s)*sqrt(((n+abs(FRC_x(r,s)))/(2*n)));  
+          FOD_Xl(r,s)=FOD_temp(s)*sqrt(((n+abs(FRC_x(r,s)))/(2*n)));
         end
     end
 end
@@ -146,8 +146,8 @@ for r=1:n
     for s=1:m
         if FRC_deA_x(r,s)>0
           FOD_deA_Xl(r,s)=FODA_temp(s)*((n-abs(FRC_deA_x(r,s)))/(2*n));  
-        else 
-          FOD_deA_Xl(r,s)=FODA_temp(s)*sqrt(((n+abs(FRC_deA_x(r,s)))/(2*n)));  
+        else
+          FOD_deA_Xl(r,s)=FODA_temp(s)*sqrt(((n+abs(FRC_deA_x(r,s)))/(2*n)));
         end
     end
 end
@@ -174,7 +174,7 @@ else
             kersim=0;
         end
     else
-        kersim=1-abs(a-x);    
+        kersim=1-abs(a-x);
     end
 end
 end
