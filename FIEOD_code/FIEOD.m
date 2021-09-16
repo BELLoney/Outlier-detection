@@ -2,7 +2,7 @@
 %%Please refer to the following papers: 
 %%Yuan Zhong, Chen Hongmei, Li Tianrui, Liu Jia, ShuWang. 
 %%Fuzzy information entropy-based adaptive approach for hybrid feature
-%%outlier detection,Fuzzy SetsandSystems,2021.
+%%outlier detection,Fuzzy Sets and Systems,2021.
 %%Uploaded by Yuan Zhong on Sep. 6, 2021. E-mail:yuanzhong2799@foxmail.com.
 function FEOF=FIEOD(data,delta)
 %%%input:
