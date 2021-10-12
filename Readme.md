@@ -39,6 +39,6 @@ The details of data preprocessing and description are shown as fllows.
 
 [5] Z. Yuan, X.Y. Zhang, and S. Feng. "Hybrid data-driven outlier detection based on neighborhood information entropy and its developmental measures." Expert Systems with Applications 112 (2018): 243-257.
 
-About data sets
+About more data sets
 
 [1] http://odds.cs.stonybrook.edu/
