@@ -18,7 +18,7 @@ The details of data preprocessing and description are shown as fllows.
 |  5| Iris|Iris_Irisvirginica_11_variant1|Iris| Downsampling the class ''Iris-virginica" down to 11 objects |4|0|11|100| 
 |  6| Pima|Pima_TRUE_55variant1|Pima| Downsampling the class ''TURE" down to 55 objects |9|0|55|500| 
 |  7| Sonar|Sonar_M_10variant1|Sonar| Downsampling the class ''M" down to 10 objects|60|0|10|97|  
-|  8| Wisconsin diagnostic breast cancer|Wdbc_M_39variant2|Wdbc| Downsampling the class ``M" down to 39 objects | 31|0|39|357|
+|  8| Wisconsin diagnostic breast cancer|Wdbc_M_39variant1|Wdbc| Downsampling the class ``M" down to 39 objects | 31|0|39|357|
 |  9| Page blocks|Pageblocks_258variant1|Page| Downsampling the class ''Non-text" down to 258 objects |10|0|258|4913|
 | 10| Wisconsin breast cancer|Wisconsin_malignant_39variant1|Wbc|202 ''malignant" (outlier) and 14 ``benign" objects were removed [2] | 9|0|39|444|
 | 11| Yeast|Yeast_ERL_5_variant1|Yeast|Classes ''ERL" (outlier), ''CYT", ''NUC", and ''MIT" are selected [3]|8|0|5|1136|
