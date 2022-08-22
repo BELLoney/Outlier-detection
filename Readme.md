@@ -47,10 +47,14 @@ The details of data preprocessing and description are shown as Tables 1-3.
 
 [3] F. Jiang and Y. M. Chen, “Outlier detection based on granular computing and rough set theory,” Applied Intelligence, vol. 42, no. 2, pp. 303–322, 2015.
 
-[4] Z. Yuan and H.M Chen, et al. "Fuzzy information entropy-based adaptive approach for hybrid feature outlier detection." Fuzzy Sets and Systems (2020). DOI:https://doi.org/10.1016/j.fss.2020.10.017.
+[4] Zhong Yuan, Hongmei Chen, Tianrui Li, Jia Liu, Shu Wang. Fuzzy information entropy based adaptive approach for hybrid feature outlier detection[J]. Fuzzy Sets and Systems, 2021, 421: 1-18.
 
-[5] Z. Yuan, X.Y. Zhang, and S. Feng. "Hybrid data-driven outlier detection based on neighborhood information entropy and its developmental measures." Expert Systems with Applications 112 (2018): 243-257.
+[5] Zhong Yuan, Xianyong Zhang, Feng Shan. Hybrid data-driven outlier detection based on neighborhood information entropy and its developmental measures[J]. Expert Systems with Applications, 2018, 112: 243-257.
 
+[6]	Zhong Yuan, Hongmei Chen, Tianrui Li, Binbin Sang, Shu Wang. Outlier detection based on fuzzy rough granules in mixed attribute data[J]. IEEE Transactions on Cybernetics, 2022, 52(8): 8399-8412.
+
+[7]	Zhong Yuan, Hongmei Chen, Tianrui Li, Xianyong Zhang, Binbin Sang. Multigranulation relative entropy based mixed attribute outlier detection in neighborhood systems[J]. IEEE Transactions on Systems, Man and Cybernetics: Systems, 2022, 52(8): 5175-5187.
+	
 About more datasets
 
 [1] http://odds.cs.stonybrook.edu/
