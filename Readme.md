@@ -35,7 +35,7 @@ The details of data preprocessing and description are shown as Tables 1-3.
 | 3| Heart disease |Heart_2_16_variant1|Downsampling the class ``2" down to 16 objects| 6|7|166|16|
 | 4| Hepatitis |Hepatitis_2_9_variant1|Downsampling the class ``2" down to 9 objects |6|13|94|9|
 | 5| Horse |Horse_1_12_variant1|Downsampling the class ``1" down to 12 objects|8|19|256|12|
-| 6| Arrhythmia |Arrhythmia_v1|Classes 3, 4, 5, 7, 8, 9, 14, 15 are combined to form the outliers class and the rest of the classes are combined to form the inliers class|206|73|452|66|
+| 6| Arrhythmia |Arrhythmia_variant1|Classes 3, 4, 5, 7, 8, 9, 14, 15 are combined to form the outliers class and the rest of the classes are combined to form the inliers class|206|73|452|66|
 
 
 [1] G. O. Campos, A. Zimek, J. Sander, R. J. Campello, B. Micenkov´a, E. Schubert, I. Assent, and M. E. Houle, “On the evaluation of unsupervised outlier detection: measures, datasets, and an empirical study,” Data Mining and Knowledge Discovery, vol. 30, no. 4, pp. 891–927, 2016.
