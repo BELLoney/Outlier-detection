@@ -10,30 +10,31 @@ Most of these data sets are used for the evaluation of classification and cluste
 The details of data preprocessing and description are shown as Tables 1-3.
 
                                                    Table 1 Some nominal datasets
-| No |  Raw Datasets |New Datasets | Preprocessing | numerical | categorical | Objects | Outliers | 
+| No |  Raw Datasets |New Datasets | Preprocessing | Numerical | Categorical | Objects | Outliers | 
 | -------- |--------|-------- |-------- |-------- | -------- | --------| -------- |
 |  1| Lymphography|Lymphography| Classes ''1'' and ''4'' are considered as outliers [2] | 0 | 8 | 148 | 6 |  
-|  2| Mushroom|Mushroom_p_221variant1|Downsampling the class ''+" down to 221 objects | 0|22|4429|221| 
+|  2| Mushroom|Mushroom_p_221_variant1|Downsampling the class ''+" down to 221 objects | 0|22|4429|221| 
                                                    Table 2 Some numerical datasets
-| No |  Raw Datasets |New Datasets | Preprocessing | numerical | categorical | Objects | Ouliers | 
+| No |  Raw Datasets |New Datasets | Preprocessing | Numerical | Categorical | Objects | Ouliers | 
 | -------- |--------|-------- |-------- |-------- | -------- | --------| -------- |
-|  1| Diabetes|Diabetes_tested_positive_26variant1|Downsampling the class ''tested\_positive" down to 26 objects |8|0|526|26|
-|  2| Ionosphere|Ionosphere_b_24variant1| Downsampling the class ''b" down to 24 objects |34|0|249|24|
+|  1| Diabetes|Diabetes_tested_positive_26_variant1|Downsampling the class ''tested\_positive" down to 26 objects |8|0|526|26|
+|  2| Ionosphere|Ionosphere_b_24_variant1| Downsampling the class ''b" down to 24 objects |34|0|249|24|
 |  3| Iris|Iris_Irisvirginica_11_variant1| Downsampling the class ''Iris-virginica" down to 11 objects |4|0|111|11| 
-|  4| Pima|Pima_TRUE_55variant1| Downsampling the class ''TURE" down to 55 objects |9|0|555|55| 
-|  5| Sonar|Sonar_M_10variant1| Downsampling the class ''M" down to 10 objects|60|0|107|10|  
-|  6| Wisconsin diagnostic breast cancer|Wdbc_M_39variant1| Downsampling the class ``M" down to 39 objects | 31|0|396|39|
-|  7| Page blocks|Pageblocks_258variant1| Downsampling the class ''Non-text" down to 258 objects |10|0|5171|258|
-| 8| Wisconsin breast cancer|Wisconsin_malignant_39variant1|202 ''malignant" (outlier) and 14 ``benign" objects were removed [2] | 9|0|483|39|
+|  4| Pima|Pima_TRUE_55_variant1| Downsampling the class ''TURE" down to 55 objects |9|0|555|55| 
+|  5| Sonar|Sonar_M_10_variant1| Downsampling the class ''M" down to 10 objects|60|0|107|10|  
+|  6| Wisconsin diagnostic breast cancer|Wdbc_M_39_variant1| Downsampling the class ``M" down to 39 objects | 31|0|396|39|
+|  7| Page blocks|Pageblocks_258_variant1| Downsampling the class ''Non-text" down to 258 objects |10|0|5171|258|
+| 8| Wisconsin breast cancer|Wisconsin_malignant_39_variant1|202 ''malignant" (outlier) and 14 ``benign" objects were removed [2] | 9|0|483|39|
 | 9| Yeast|Yeast_ERL_5_variant1|Classes ''ERL" (outlier), ''CYT", ''NUC", and ''MIT" are selected [3]|8|0|1141|5|
+| 10| Waveform|Waveform_0_100_variant1|Downsampling the class ''0" down to 100 objects|21|0|3443|100|
                                                     Table 3 Some mixed datasets
-| No |  Raw Datasets |New Datasets |  Preprocessing | numerical | categorical |Objects | Ouliers | 
+| No |  Raw Datasets |New Datasets |  Preprocessing | Numerical | Categorical |Objects | Ouliers | 
 | -------- |--------|-------- |-------- |-------- | -------- | --------| -------- |
-| 1| Credit approval|CreditA_plus_42variant1|Downsampling the class ``+" down to 42 objects|6|9|425|42|
-| 2| German|German_1_14variant1|Downsampling the class ``2" down to 14 objects|7|13|714|14|
-| 3| Heart disease |Heart_2_16variant1|Downsampling the class ``2" down to 16 objects| 6|7|166|16|
-| 4| Hepatitis |Hepatitis_2_9variant1|Downsampling the class ``2" down to 9 objects |6|13|94|9|
-| 5| Horse |Horse_1_12variant1|Downsampling the class ``1" down to 12 objects|8|19|256|12|
+| 1| Credit approval|CreditA_plus_42_variant1|Downsampling the class ``+" down to 42 objects|6|9|425|42|
+| 2| German|German_1_14_variant1|Downsampling the class ``2" down to 14 objects|7|13|714|14|
+| 3| Heart disease |Heart_2_16_variant1|Downsampling the class ``2" down to 16 objects| 6|7|166|16|
+| 4| Hepatitis |Hepatitis_2_9_variant1|Downsampling the class ``2" down to 9 objects |6|13|94|9|
+| 5| Horse |Horse_1_12_variant1|Downsampling the class ``1" down to 12 objects|8|19|256|12|
 | 6| Arrhythmia |Arrhythmia_v1|Classes 3, 4, 5, 7, 8, 9, 14, 15 are combined to form the outliers class and the rest of the classes are combined to form the inliers class|206|73|452|66|
 
 
