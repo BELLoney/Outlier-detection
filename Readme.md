@@ -9,11 +9,13 @@ Most of these data sets are used for the evaluation of classification and cluste
 
 The details of data preprocessing and description are shown as fllows.
 
+                                         Tabel 1 Some nominal datasets
 | No |  Raw Datasets |New Datasets | Abbreviation | Preprocessing | numerical | categorical | Oulier | Normal | 
 | -------- |--------|-------- |-------- |-------- |-------- | -------- | --------| -------- |
 |  1| Lymphography|Lymphography| Lymp | Classes ''1'' and ''4'' are considered as outliers [2] | 0 | 8 | 6 | 142 |  
 |  2| Mushroom|Mushroom_p_221variant1|Mush| Downsampling the class ''+" down to 221 objects | 0|22|221|4208| 
 |  3| Diabetes|Diabetes_tested_positive_26variant1|Diab| Downsampling the class ''tested\_positive" down to 26 objects |8|0|26|500|
+                                          Tabel 2 Some numerical datasets
 |  4| Ionosphere|Ionosphere_b_24variant1|Iono| Downsampling the class ''b" down to 24 objects |34|0|24|225|
 |  5| Iris|Iris_Irisvirginica_11_variant1|Iris| Downsampling the class ''Iris-virginica" down to 11 objects |4|0|11|100| 
 |  6| Pima|Pima_TRUE_55variant1|Pima| Downsampling the class ''TURE" down to 55 objects |9|0|55|500| 
@@ -22,6 +24,7 @@ The details of data preprocessing and description are shown as fllows.
 |  9| Page blocks|Pageblocks_258variant1|Page| Downsampling the class ''Non-text" down to 258 objects |10|0|258|4913|
 | 10| Wisconsin breast cancer|Wisconsin_malignant_39variant1|Wbc|202 ''malignant" (outlier) and 14 ``benign" objects were removed [2] | 9|0|39|444|
 | 11| Yeast|Yeast_ERL_5_variant1|Yeast|Classes ''ERL" (outlier), ''CYT", ''NUC", and ''MIT" are selected [3]|8|0|5|1136|
+                                           Tabel 3 Some mixed datasets
 | 12| Credit approval|CreditA_plus_42variant1|Cred| Downsampling the class ``+" down to 42 objects|6|9|42|383|
 | 13| German|German_1_14variant1|Germ| Downsampling the class ``2" down to 14 objects|7|13|14|700|
 | 14| Heart disease |Heart_2_16variant1|Heart| Downsampling the class ``2" down to 16 objects| 6|7|16|150|
