@@ -29,6 +29,7 @@ The details of data preprocessing and description are shown as Tables 1-3.
 | 10| Waveform|Waveform_0_100_variant1|Downsampling the class ''0" down to 100 objects|21|0|3443|100|
 | 11| Spambase|Spambase_spam_56_variant1|Downsampling the class ''spam" down to 56 objects|58|0|2788|56|
 | 12| Wilt|Wilt_w_93_variant1|Downsampling the class ''w" down to 93 objects|5|0|4671|93|
+| 13| Wisconsin prognostic breast cancer|Wpbc|Class ''R" (minority) is considered as outliers|33|0|198|47|
                                                     Table 3 Some mixed datasets
 | No |  Raw Datasets |New Datasets |  Preprocessing | Numerical | Categorical |Objects | Ouliers | 
 | -------- |--------|-------- |-------- |-------- | -------- | --------| -------- |
