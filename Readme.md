@@ -14,18 +14,18 @@ The details of data preprocessing and description are shown as Tables 1-3.
 | -------- |--------|-------- |-------- |-------- | -------- | --------| -------- |
 |  1| Lymphography|Lymphography| Classes ''1'' and ''4'' are considered as outliers [2] | 0 | 8 | 148 | 6 |  
 |  2| Mushroom|Mushroom_p_221variant1|Downsampling the class ''+" down to 221 objects | 0|22|4429|221| 
-|  3| Diabetes|Diabetes_tested_positive_26variant1|Diab| Downsampling the class ''tested\_positive" down to 26 objects |8|0|526|26|
                                                    Table 2 Some numerical datasets
 | No |  Raw Datasets |New Datasets | Preprocessing | numerical | categorical | Objects | Ouliers | 
 | -------- |--------|-------- |-------- |-------- | -------- | --------| -------- |
-|  1| Ionosphere|Ionosphere_b_24variant1| Downsampling the class ''b" down to 24 objects |34|0|249|24|
-|  2| Iris|Iris_Irisvirginica_11_variant1| Downsampling the class ''Iris-virginica" down to 11 objects |4|0|111|11| 
-|  3| Pima|Pima_TRUE_55variant1| Downsampling the class ''TURE" down to 55 objects |9|0|555|55| 
-|  4| Sonar|Sonar_M_10variant1| Downsampling the class ''M" down to 10 objects|60|0|107|10|  
-|  5| Wisconsin diagnostic breast cancer|Wdbc_M_39variant1| Downsampling the class ``M" down to 39 objects | 31|0|396|39|
-|  6| Page blocks|Pageblocks_258variant1| Downsampling the class ''Non-text" down to 258 objects |10|0|5171|258|
-| 7| Wisconsin breast cancer|Wisconsin_malignant_39variant1|202 ''malignant" (outlier) and 14 ``benign" objects were removed [2] | 9|0|483|39|
-| 8| Yeast|Yeast_ERL_5_variant1|Classes ''ERL" (outlier), ''CYT", ''NUC", and ''MIT" are selected [3]|8|0|1141|5|
+|  1| Diabetes|Diabetes_tested_positive_26variant1|Downsampling the class ''tested\_positive" down to 26 objects |8|0|526|26|
+|  2| Ionosphere|Ionosphere_b_24variant1| Downsampling the class ''b" down to 24 objects |34|0|249|24|
+|  3| Iris|Iris_Irisvirginica_11_variant1| Downsampling the class ''Iris-virginica" down to 11 objects |4|0|111|11| 
+|  4| Pima|Pima_TRUE_55variant1| Downsampling the class ''TURE" down to 55 objects |9|0|555|55| 
+|  5| Sonar|Sonar_M_10variant1| Downsampling the class ''M" down to 10 objects|60|0|107|10|  
+|  6| Wisconsin diagnostic breast cancer|Wdbc_M_39variant1| Downsampling the class ``M" down to 39 objects | 31|0|396|39|
+|  7| Page blocks|Pageblocks_258variant1| Downsampling the class ''Non-text" down to 258 objects |10|0|5171|258|
+| 8| Wisconsin breast cancer|Wisconsin_malignant_39variant1|202 ''malignant" (outlier) and 14 ``benign" objects were removed [2] | 9|0|483|39|
+| 9| Yeast|Yeast_ERL_5_variant1|Classes ''ERL" (outlier), ''CYT", ''NUC", and ''MIT" are selected [3]|8|0|1141|5|
                                                     Table 3 Some mixed datasets
 | No |  Raw Datasets |New Datasets |  Preprocessing | numerical | categorical |Objects | Ouliers | 
 | -------- |--------|-------- |-------- |-------- | -------- | --------| -------- |
