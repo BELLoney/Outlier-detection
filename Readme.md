@@ -47,7 +47,8 @@ The details of data preprocessing and description are shown as Tables 1-3.
 | 12| Bands |bands_band_27_variant1|Downsampling the class "band" down to 27 objects|20|20|339|27|
 | 13| Bands |bands_band_34_variant1|Downsampling the class "band" down to 34 objects|20|20|346|34|
 | 14| Bands |bands_band_42_variant1|Downsampling the class "band" down to 42 objects|20|20|354|42|
-| 15| Autos |Autos_variant1|Classes "-2" and "-1" are combined to form the outliers class and the rest of the classes are combined to form the inliers class|15|10|205|23|
+| 15| Autos |Autos_variant1|Classes "-2" and "-1" are combined to form the outliers class and the rest of the classes are combined to form the inliers class|15|10|205|23|Annealing
+| 16| Annealing |Annealing_variant1|Classes "1" and "U" are combined to form the outliers class and the rest of the classes are combined to form the inliers class|9|29|798|42|
 
 [1] G. O. Campos, A. Zimek, J. Sander, R. J. Campello, B. Micenkov´a, E. Schubert, I. Assent, and M. E. Houle, “On the evaluation of unsupervised outlier detection: measures, datasets, and an empirical study,” Data Mining and Knowledge Discovery, vol. 30, no. 4, pp. 891–927, 2016.
 
