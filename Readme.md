@@ -9,13 +9,13 @@ Most of these data sets are used for the evaluation of classification and cluste
 
 The details of data preprocessing and description are shown as Tables 1-3.
 
-                                                                Table 1 Some nominal datasets
+                                                   Table 1 Some nominal datasets
 | No |  Raw Datasets |New Datasets | Preprocessing | numerical | categorical | Oulier | Normal | 
 | -------- |--------|-------- |-------- |-------- | -------- | --------| -------- |
 |  1| Lymphography|Lymphography| Classes ''1'' and ''4'' are considered as outliers [2] | 0 | 8 | 6 | 142 |  
 |  2| Mushroom|Mushroom_p_221variant1|Downsampling the class ''+" down to 221 objects | 0|22|221|4208| 
 |  3| Diabetes|Diabetes_tested_positive_26variant1|Diab| Downsampling the class ''tested\_positive" down to 26 objects |8|0|26|500|
-                                                                Table 2 Some numerical datasets
+                                                   Table 2 Some numerical datasets
 | No |  Raw Datasets |New Datasets | Preprocessing | numerical | categorical | Oulier | Normal | 
 | -------- |--------|-------- |-------- |-------- | -------- | --------| -------- |
 |  1| Ionosphere|Ionosphere_b_24variant1| Downsampling the class ''b" down to 24 objects |34|0|24|225|
@@ -26,7 +26,7 @@ The details of data preprocessing and description are shown as Tables 1-3.
 |  6| Page blocks|Pageblocks_258variant1| Downsampling the class ''Non-text" down to 258 objects |10|0|258|4913|
 | 7| Wisconsin breast cancer|Wisconsin_malignant_39variant1|202 ''malignant" (outlier) and 14 ``benign" objects were removed [2] | 9|0|39|444|
 | 8| Yeast|Yeast_ERL_5_variant1|Classes ''ERL" (outlier), ''CYT", ''NUC", and ''MIT" are selected [3]|8|0|5|1136|
-                                                                 Table 3 Some mixed datasets
+                                                    Table 3 Some mixed datasets
 | No |  Raw Datasets |New Datasets |  Preprocessing | numerical | categorical | Oulier | Normal | 
 | -------- |--------|-------- |-------- |-------- | -------- | --------| -------- |
 | 1| Credit approval|CreditA_plus_42variant1|Downsampling the class ``+" down to 42 objects|6|9|42|383|
