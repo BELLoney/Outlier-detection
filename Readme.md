@@ -29,11 +29,12 @@ The details of data preprocessing and description are shown as fllows.
                                            Tabel 3 Some mixed datasets
 | No |  Raw Datasets |New Datasets | Abbreviation | Preprocessing | numerical | categorical | Oulier | Normal | 
 | -------- |--------|-------- |-------- |-------- |-------- | -------- | --------| -------- |
-| 12| Credit approval|CreditA_plus_42variant1|Cred| Downsampling the class ``+" down to 42 objects|6|9|42|383|
-| 13| German|German_1_14variant1|Germ| Downsampling the class ``2" down to 14 objects|7|13|14|700|
-| 14| Heart disease |Heart_2_16variant1|Heart| Downsampling the class ``2" down to 16 objects| 6|7|16|150|
-| 15| Hepatitis |Hepatitis_2_9variant1|Hepa| Downsampling the class ``2" down to 9 objects |6|13|9|85|
-| 16| Horse |Horse_1_12variant1|Horse| Downsampling the class ``1" down to 12 objects|8|19|12|244|
+| 1| Credit approval|CreditA_plus_42variant1|Cred| Downsampling the class ``+" down to 42 objects|6|9|42|383|
+| 2| German|German_1_14variant1|Germ| Downsampling the class ``2" down to 14 objects|7|13|14|700|
+| 3| Heart disease |Heart_2_16variant1|Heart| Downsampling the class ``2" down to 16 objects| 6|7|16|150|
+| 4| Hepatitis |Hepatitis_2_9variant1|Hepa| Downsampling the class ``2" down to 9 objects |6|13|9|85|
+| 5| Horse |Horse_1_12variant1|Horse| Downsampling the class ``1" down to 12 objects|8|19|12|244|
+| 6| Arrhythmia |Arrhythmia_v1|Arrh_v1| Classes 3, 4, 5, 7, 8, 9, 14, 15 are combined to form the outliers class and the rest of the classes are combined to form the inliers class|8|19|12|244|
 
 
 [1] G. O. Campos, A. Zimek, J. Sander, R. J. Campello, B. Micenkov´a, E. Schubert, I. Assent, and M. E. Houle, “On the evaluation of unsupervised outlier detection: measures, datasets, and an empirical study,” Data Mining and Knowledge Discovery, vol. 30, no. 4, pp. 891–927, 2016.
