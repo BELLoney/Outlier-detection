@@ -16,25 +16,25 @@ The details of data preprocessing and description are shown as Tables 1-3.
 |  2| Mushroom|Mushroom_p_221variant1|Downsampling the class ''+" down to 221 objects | 0|22|221|4208| 
 |  3| Diabetes|Diabetes_tested_positive_26variant1|Diab| Downsampling the class ''tested\_positive" down to 26 objects |8|0|26|500|
                                                    Table 2 Some numerical datasets
-| No |  Raw Datasets |New Datasets | Preprocessing | numerical | categorical | Oulier | Normal | 
+| No |  Raw Datasets |New Datasets | Preprocessing | numerical | categorical | Objects | Ouliers | 
 | -------- |--------|-------- |-------- |-------- | -------- | --------| -------- |
-|  1| Ionosphere|Ionosphere_b_24variant1| Downsampling the class ''b" down to 24 objects |34|0|24|225|
-|  2| Iris|Iris_Irisvirginica_11_variant1| Downsampling the class ''Iris-virginica" down to 11 objects |4|0|11|100| 
-|  3| Pima|Pima_TRUE_55variant1| Downsampling the class ''TURE" down to 55 objects |9|0|55|500| 
-|  4| Sonar|Sonar_M_10variant1| Downsampling the class ''M" down to 10 objects|60|0|10|97|  
-|  5| Wisconsin diagnostic breast cancer|Wdbc_M_39variant1| Downsampling the class ``M" down to 39 objects | 31|0|39|357|
-|  6| Page blocks|Pageblocks_258variant1| Downsampling the class ''Non-text" down to 258 objects |10|0|258|4913|
-| 7| Wisconsin breast cancer|Wisconsin_malignant_39variant1|202 ''malignant" (outlier) and 14 ``benign" objects were removed [2] | 9|0|39|444|
-| 8| Yeast|Yeast_ERL_5_variant1|Classes ''ERL" (outlier), ''CYT", ''NUC", and ''MIT" are selected [3]|8|0|5|1136|
+|  1| Ionosphere|Ionosphere_b_24variant1| Downsampling the class ''b" down to 24 objects |34|0|249|24|
+|  2| Iris|Iris_Irisvirginica_11_variant1| Downsampling the class ''Iris-virginica" down to 11 objects |4|0|111|11| 
+|  3| Pima|Pima_TRUE_55variant1| Downsampling the class ''TURE" down to 55 objects |9|0|555|55| 
+|  4| Sonar|Sonar_M_10variant1| Downsampling the class ''M" down to 10 objects|60|0|107|10|  
+|  5| Wisconsin diagnostic breast cancer|Wdbc_M_39variant1| Downsampling the class ``M" down to 39 objects | 31|0|396|39|
+|  6| Page blocks|Pageblocks_258variant1| Downsampling the class ''Non-text" down to 258 objects |10|0|5171|258|
+| 7| Wisconsin breast cancer|Wisconsin_malignant_39variant1|202 ''malignant" (outlier) and 14 ``benign" objects were removed [2] | 9|0|483|39|
+| 8| Yeast|Yeast_ERL_5_variant1|Classes ''ERL" (outlier), ''CYT", ''NUC", and ''MIT" are selected [3]|8|0|1141|5|
                                                     Table 3 Some mixed datasets
 | No |  Raw Datasets |New Datasets |  Preprocessing | numerical | categorical | Oulier | Normal | 
 | -------- |--------|-------- |-------- |-------- | -------- | --------| -------- |
-| 1| Credit approval|CreditA_plus_42variant1|Downsampling the class ``+" down to 42 objects|6|9|42|383|
-| 2| German|German_1_14variant1|Downsampling the class ``2" down to 14 objects|7|13|14|700|
-| 3| Heart disease |Heart_2_16variant1|Downsampling the class ``2" down to 16 objects| 6|7|16|150|
-| 4| Hepatitis |Hepatitis_2_9variant1|Downsampling the class ``2" down to 9 objects |6|13|9|85|
-| 5| Horse |Horse_1_12variant1|Downsampling the class ``1" down to 12 objects|8|19|12|244|
-| 6| Arrhythmia |Arrhythmia_v1|Classes 3, 4, 5, 7, 8, 9, 14, 15 are combined to form the outliers class and the rest of the classes are combined to form the inliers class|8|19|12|244|
+| 1| Credit approval|CreditA_plus_42variant1|Downsampling the class ``+" down to 42 objects|6|9|425|42|
+| 2| German|German_1_14variant1|Downsampling the class ``2" down to 14 objects|7|13|714|14|
+| 3| Heart disease |Heart_2_16variant1|Downsampling the class ``2" down to 16 objects| 6|7|166|16|
+| 4| Hepatitis |Hepatitis_2_9variant1|Downsampling the class ``2" down to 9 objects |6|13|94|9|
+| 5| Horse |Horse_1_12variant1|Downsampling the class ``1" down to 12 objects|8|19|256|12|
+| 6| Arrhythmia |Arrhythmia_v1|Classes 3, 4, 5, 7, 8, 9, 14, 15 are combined to form the outliers class and the rest of the classes are combined to form the inliers class|206|73|452|66|
 
 
 [1] G. O. Campos, A. Zimek, J. Sander, R. J. Campello, B. Micenkov´a, E. Schubert, I. Assent, and M. E. Houle, “On the evaluation of unsupervised outlier detection: measures, datasets, and an empirical study,” Data Mining and Knowledge Discovery, vol. 30, no. 4, pp. 891–927, 2016.
