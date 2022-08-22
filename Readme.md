@@ -29,7 +29,7 @@ The details of data preprocessing and description are shown as Tables 1-3.
 | 10| Waveform|Waveform_0_100_variant1|Downsampling the class ''0" down to 100 objects|21|0|3443|100|
 | 11| Spambase|Spambase_spam_56_variant1|Downsampling the class ''spam" down to 56 objects|58|0|2788|56|
 | 12| Wilt|Wilt_w_93_variant1|Downsampling the class ''w" down to 93 objects|5|0|4671|93|
-| 13| Wisconsin prognostic breast cancer|Wpbc|Class ''R" (minority) is considered as outliers|33|0|198|47|
+| 13| Wisconsin prognostic breast cancer|Wpbc_variant1|Class ''R" (minority) is considered as outliers|33|0|198|47|
                                                     Table 3 Some mixed datasets
 | No |  Raw Datasets |New Datasets |  Preprocessing | Numerical | Categorical |Objects | Ouliers | 
 | -------- |--------|-------- |-------- |-------- | -------- | --------| -------- |
@@ -39,7 +39,8 @@ The details of data preprocessing and description are shown as Tables 1-3.
 | 4| Hepatitis |Hepatitis_2_9_variant1|Downsampling the class ``2" down to 9 objects |6|13|94|9|
 | 5| Horse |Horse_1_12_variant1|Downsampling the class ``1" down to 12 objects|8|19|256|12|
 | 6| Arrhythmia |Arrhythmia_variant1|Classes 3, 4, 5, 7, 8, 9, 14, 15 are combined to form the outliers class and the rest of the classes are combined to form the inliers class|206|73|452|66|
-| 7| Sick |Sick|Class ``sick"  are regarded as outliers|7|22|3772|231|
+| 7| Sick |Sick_variant1|Class ``sick"  are regarded as outliers|7|22|3772|231|
+| 8| Thyroid_disease |Thyroid_disease_variant1|Classes SVH Dand WEST are combined to form the outliers class and the rest of the classes are combined to form the inliers class|7|21|9172|74|
 
 
 [1] G. O. Campos, A. Zimek, J. Sander, R. J. Campello, B. Micenkov´a, E. Schubert, I. Assent, and M. E. Houle, “On the evaluation of unsupervised outlier detection: measures, datasets, and an empirical study,” Data Mining and Knowledge Discovery, vol. 30, no. 4, pp. 891–927, 2016.
