@@ -55,29 +55,29 @@ The details of data preprocessing and description are shown as Tables 1-3.
                                                     Table 3 Some mixed datasets
 | No |  Raw Datasets |New Datasets |  Preprocessing | Numerical | Categorical |Objects | Ouliers | 
 | -------- |--------|-------- |-------- |-------- | -------- | --------| -------- |
-| 1| Credit approval|CreditA_plus_42_variant1|Downsampling the class ``+" down to 42 objects|6|9|425|42|
-| 2| German|German_1_14_variant1|Downsampling the class ``2" down to 14 objects|7|13|714|14|
-| 3| Heart disease |Heart_2_16_variant1|Downsampling the class ``2" down to 16 objects| 6|7|166|16|
-| 4| Hepatitis |Hepatitis_2_9_variant1|Downsampling the class ``2" down to 9 objects |6|13|94|9|
-| 5| Horse |Horse_1_12_variant1|Downsampling the class ``1" down to 12 objects|8|19|256|12|
-| 6| Arrhythmia |Arrhythmia_variant1|Classes 3, 4, 5, 7, 8, 9, 14, 15 are combined to form the outliers class and the rest of the classes are combined to form the inliers class|206|73|452|66|
-| 7| Sick |Sick_variant1|Class ``sick"  are regarded as outliers|7|22|3772|231|
-| 8| Thyroid_disease |Thyroid_disease_variant1|Classes ``SVHD" and ``WEST" are combined to form the outliers class and the rest of the classes are combined to form the inliers class|7|21|9172|74|
-| 9| Labor |Labor_variant1|Class ``bad" is regarded as the outliers class|8|8|57|20|
-| 10| Bands |Bands_band_6_variant1|Downsampling the class "band" down to 6 objects|20|20|318|6|
-| 11| Bands |Bands_band_16_variant1|Downsampling the class "band" down to 16 objects|20|20|328|16|
-| 12| Bands |Bands_band_27_variant1|Downsampling the class "band" down to 27 objects|20|20|339|27|
-| 13| Bands |Bands_band_34_variant1|Downsampling the class "band" down to 34 objects|20|20|346|34|
-| 14| Bands |Bands_band_42_variant1|Downsampling the class "band" down to 42 objects|20|20|354|42|
-| 15| Autos |Autos_variant1|Classes "-2" and "-1" are combined to form the outliers class and the rest of the classes are combined to form the inliers class|15|10|205|23|Annealing
-| 16| Annealing |Annealing_variant1|Classes "1" and "U" are combined to form the outliers class and the rest of the classes are combined to form the inliers class|9|29|798|42|
-| 17| Adult |Adult_morethan50K_343_variant1|Downsampling the class ">50k" down to 343 objects|6|8|34357|343|
-| 18| Adult |Adult_morethan50K_694_variant1|Downsampling the class ">50k" down to 694 objects|6|8|34708|694|
-| 19| Adult |Adult_morethan50K_1790_variant1|Downsampling the class ">50k" down to 1790 objects|6|8|35804|1790|
-| 20| Adult |Adult_morethan50K_2957_variant1|Downsampling the class ">50k" down to 2957 objects|6|8|36971|2957|
-| 21| Adult |Adult_morethan50K_3779_variant1|Downsampling the class ">50k" down to 3779 objects|6|8|37793|3779|
-| 22| Adult |Adult_morethan50K_4638_variant1|Downsampling the class ">50k" down to 4638 objects|6|8|38652|4638|
-| 23| Abalone |Abalone_variant1|Classes "1-3", "20-27" and 29 are combined to form the outliers class and the rest of the classes are combined to form the inliers class|8|1|4177|79|
+| 1| Abalone |Abalone_variant1|Classes "1-3", "20-27" and 29 are combined to form the outliers class and the rest of the classes are combined to form the inliers class|8|1|4177|79|
+| 2| Adult |Adult_morethan50K_343_variant1|Downsampling the class ">50k" down to 343 objects|6|8|34357|343|
+| 3| Adult |Adult_morethan50K_694_variant1|Downsampling the class ">50k" down to 694 objects|6|8|34708|694|
+| 4| Adult |Adult_morethan50K_1790_variant1|Downsampling the class ">50k" down to 1790 objects|6|8|35804|1790|
+| 5| Adult |Adult_morethan50K_2957_variant1|Downsampling the class ">50k" down to 2957 objects|6|8|36971|2957|
+| 6| Adult |Adult_morethan50K_3779_variant1|Downsampling the class ">50k" down to 3779 objects|6|8|37793|3779|
+| 7| Adult |Adult_morethan50K_4638_variant1|Downsampling the class ">50k" down to 4638 objects|6|8|38652|4638|
+| 8| Autos |Autos_variant1|Classes "-2" and "-1" are combined to form the outliers class and the rest of the classes are combined to form the inliers class|15|10|205|23|Annealing
+| 9| Annealing |Annealing_variant1|Classes "1" and "U" are combined to form the outliers class and the rest of the classes are combined to form the inliers class|9|29|798|42|
+| 10| Arrhythmia |Arrhythmia_variant1|Classes 3, 4, 5, 7, 8, 9, 14, 15 are combined to form the outliers class and the rest of the classes are combined to form the inliers class|206|73|452|66|
+| 11| Bands |Bands_band_6_variant1|Downsampling the class "band" down to 6 objects|20|20|318|6|
+| 12| Bands |Bands_band_16_variant1|Downsampling the class "band" down to 16 objects|20|20|328|16|
+| 13| Bands |Bands_band_27_variant1|Downsampling the class "band" down to 27 objects|20|20|339|27|
+| 14| Bands |Bands_band_34_variant1|Downsampling the class "band" down to 34 objects|20|20|346|34|
+| 15| Bands |Bands_band_42_variant1|Downsampling the class "band" down to 42 objects|20|20|354|42|
+| 16| Credit approval|CreditA_plus_42_variant1|Downsampling the class ``+" down to 42 objects|6|9|425|42|
+| 17| German|German_1_14_variant1|Downsampling the class ``2" down to 14 objects|7|13|714|14|
+| 18| Heart disease |Heart_2_16_variant1|Downsampling the class ``2" down to 16 objects| 6|7|166|16|
+| 19| Hepatitis |Hepatitis_2_9_variant1|Downsampling the class ``2" down to 9 objects |6|13|94|9|
+| 20| Horse |Horse_1_12_variant1|Downsampling the class ``1" down to 12 objects|8|19|256|12|
+| 21| Sick |Sick_variant1|Class ``sick"  are regarded as outliers|7|22|3772|231|
+| 22| Thyroid_disease |Thyroid_disease_variant1|Classes ``SVHD" and ``WEST" are combined to form the outliers class and the rest of the classes are combined to form the inliers class|7|21|9172|74|
+| 23| Labor |Labor_variant1|Class ``bad" is regarded as the outliers class|8|8|57|20|
 
 [1] G. O. Campos, A. Zimek, J. Sander, R. J. Campello, B. Micenkov´a, E. Schubert, I. Assent, and M. E. Houle, “On the evaluation of unsupervised outlier detection: measures, datasets, and an empirical study,” Data Mining and Knowledge Discovery, vol. 30, no. 4, pp. 891–927, 2016.
 
