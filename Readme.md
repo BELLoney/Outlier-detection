@@ -12,8 +12,25 @@ The details of data preprocessing and description are shown as Tables 1-3.
                                                    Table 1 Some nominal datasets
 | No |  Raw Datasets |New Datasets | Preprocessing | Numerical | Categorical | Objects | Outliers | 
 | -------- |--------|-------- |-------- |-------- | -------- | --------| -------- |
+|  1| Audiology|Audiology_variant1|Classes "cochlear_age", "cochlear_age_and_noise", "cochlear_poss_noise","cochlear_unknown", and "normal_ear" are combined to form the inliers class and the rest of the classes are combined to form the outliers class| 0 | 69 | 226 | 53 | 
+|  2| Balance scale|Balance scale_variant1|Class "B" is regarded as the outliers class| 0 | 4 | 625 | 49 |
+|  3| Breast cancer |Balance scale_variant1|Class "recurrence-events" is regarded as the outliers class| 0 | 9 | 286 | 85 | 
+|  4| Car |Car_variant1|Classes "good" and "v-good"  are regarded as the outliers class| 0 | 6 | 1728 | 134 | 
+|  5| Chess |Chess_nowin_16_variant1|Downsampling the class "nowin" down to 16 objects| 0 | 36 | 1685 | 16 | 
+|  6| Chess |Chess_nowin_34_variant1|Downsampling the class "nowin" down to 34 objects| 0 | 36 | 1703 | 34 |
+|  7| Chess |Chess_nowin_16_variant1|Downsampling the class "nowin" down to 87 objects| 0 | 36 | 1756 | 87 |
+|  8| Chess |Chess_nowin_16_variant1|Downsampling the class "nowin" down to 145 objects| 0 | 36 | 1814 | 145 |
+|  9| Chess |Chess_nowin_16_variant1|Downsampling the class "nowin" down to 185 objects| 0 | 36 | 1854 | 185 |
+|  10| Connect-4 |Connect-4_variant1|Class "draw" is regarded as the outliers class| 0 | 42 | 67557 | 6449 | 
+|  11| Lung cancer |Lung cancer_variant1|Class "1" is regarded as the outliers class| 0 | 57 | 32 | 9 | 
+
 |  1| Lymphography|Lymphography| Classes ''1'' and ''4'' are considered as outliers [2] | 0 | 8 | 148 | 6 |  
-|  2| Mushroom|Mushroom_p_221_variant1|Downsampling the class ''+" down to 221 objects | 0|22|4429|221| 
+|  2| Mushroom|Mushroom_p_221_variant1|Downsampling the class ''+" down to 221 objects | 0|22|4429|221|
+
+|  4| Tic tac toe|Tic tac toe_negative_26_variant1|Downsampling the class "negative" down to 26 objects | 0|9|652|26|
+|  4| Vote|Vote_republican_29_variant1|Downsampling the class "republican" down to 29 objects | 0|16|296|29|
+|  3| Zoo|Zoo_variant1|Classes "reptile", "amphibian" and "insect" are combined to form the outliers class and the rest of the classes are combined to form the inliers class| 0|16|101|17|
+
                                                    Table 2 Some numerical datasets
 | No |  Raw Datasets |New Datasets | Preprocessing | Numerical | Categorical | Objects | Ouliers | 
 | -------- |--------|-------- |-------- |-------- | -------- | --------| -------- |
