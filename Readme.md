@@ -54,6 +54,7 @@ The details of data preprocessing and description are shown as Tables 1-3.
 | 19| Adult |Adult_morethan50K_1790_variant1|Downsampling the class ">50k" down to 1790 objects|6|8|35804|1790|
 | 20| Adult |Adult_morethan50K_2957_variant1|Downsampling the class ">50k" down to 2957 objects|6|8|36971|2957|
 | 21| Adult |Adult_morethan50K_3779_variant1|Downsampling the class ">50k" down to 3779 objects|6|8|37793|3779|
+| 22| Adult |Adult_morethan50K_4638_variant1|Downsampling the class ">50k" down to 4638 objects|6|8|38652|4638|
 
 [1] G. O. Campos, A. Zimek, J. Sander, R. J. Campello, B. Micenkov´a, E. Schubert, I. Assent, and M. E. Houle, “On the evaluation of unsupervised outlier detection: measures, datasets, and an empirical study,” Data Mining and Knowledge Discovery, vol. 30, no. 4, pp. 891–927, 2016.
 
