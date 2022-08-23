@@ -49,7 +49,11 @@ The details of data preprocessing and description are shown as Tables 1-3.
 | 14| Bands |Bands_band_42_variant1|Downsampling the class "band" down to 42 objects|20|20|354|42|
 | 15| Autos |Autos_variant1|Classes "-2" and "-1" are combined to form the outliers class and the rest of the classes are combined to form the inliers class|15|10|205|23|Annealing
 | 16| Annealing |Annealing_variant1|Classes "1" and "U" are combined to form the outliers class and the rest of the classes are combined to form the inliers class|9|29|798|42|
-| 17| Adult |Adult_>50K_343_variant1|Downsampling the class "band" down to 42 objects|20|20|354|42|
+| 17| Adult |Adult_morethan50K_343_variant1|Downsampling the class ">50k" down to 343 objects|6|8|34357|343|
+| 18| Adult |Adult_morethan50K_694_variant1|Downsampling the class ">50k" down to 694 objects|6|8|34708|694|
+| 19| Adult |Adult_morethan50K_1790_variant1|Downsampling the class ">50k" down to 1790 objects|6|8|35804|1790|
+| 20| Adult |Adult_morethan50K_2957_variant1|Downsampling the class ">50k" down to 2957 objects|6|8|36971|2957|
+| 21| Adult |Adult_morethan50K_3779_variant1|Downsampling the class ">50k" down to 3779 objects|6|8|37793|3779|
 
 [1] G. O. Campos, A. Zimek, J. Sander, R. J. Campello, B. Micenkov´a, E. Schubert, I. Assent, and M. E. Houle, “On the evaluation of unsupervised outlier detection: measures, datasets, and an empirical study,” Data Mining and Knowledge Discovery, vol. 30, no. 4, pp. 891–927, 2016.
 
