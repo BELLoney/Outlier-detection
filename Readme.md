@@ -23,14 +23,19 @@ The details of data preprocessing and description are shown as Tables 1-3.
 |  9| Chess |Chess_nowin_16_variant1|Downsampling the class "nowin" down to 185 objects| 0 | 36 | 1854 | 185 |
 |  10| Connect-4 |Connect-4_variant1|Class "draw" is regarded as the outliers class| 0 | 42 | 67557 | 6449 | 
 |  11| Lung cancer |Lung cancer_variant1|Class "1" is regarded as the outliers class| 0 | 57 | 32 | 9 | 
-
-|  1| Lymphography|Lymphography| Classes ''1'' and ''4'' are considered as outliers [2] | 0 | 8 | 148 | 6 |  
-|  2| Mushroom|Mushroom_p_221_variant1|Downsampling the class ''+" down to 221 objects | 0|22|4429|221|
-
-|  4| Tic tac toe|Tic tac toe_negative_26_variant1|Downsampling the class "negative" down to 26 objects | 0|9|652|26|
-|  4| Vote|Vote_republican_29_variant1|Downsampling the class "republican" down to 29 objects | 0|16|296|29|
-|  3| Zoo|Zoo_variant1|Classes "reptile", "amphibian" and "insect" are combined to form the outliers class and the rest of the classes are combined to form the inliers class| 0|16|101|17|
-
+|  12| Lymphography|Lymphography| Classes ''1'' and ''4'' are considered as outliers [2] | 0 | 8 | 148 | 6 |
+|  13| Monks |Chess_0_4_variant1|Downsampling the class "0" down to 4 objects| 0 | 6 | 232 | 4 |
+|  14| Monks |Chess_0_12_variant1|Downsampling the class "0" down to 12 objects| 0 | 6 | 240 | 12 |
+|  15| Monks |Chess_0_25_variant1|Downsampling the class "0" down to 25 objects| 0 | 6 | 253 | 25 |
+|  16| Mushroom|Mushroom_p_85_variant1|Downsampling the class ''+" down to 85 objects | 0|22|4293|85|
+|  17| Mushroom|Mushroom_p_221_variant1|Downsampling the class ''+" down to 221 objects | 0|22|4429|221|
+|  18| Mushroom|Mushroom_p_365_variant1|Downsampling the class ''+" down to 365 objects | 0|22|4573|365|
+|  19| Mushroom|Mushroom_p_467_variant1|Downsampling the class ''+" down to 467 objects | 0|22|4675|467|
+|  20| Mushroom|Mushroom_p_573_variant1|Downsampling the class ''+" down to 573 objects | 0|22|4781|573|
+|  21| Nursery|Nursery_variant1|Classes "recommend" and "very_recom" are combined to form the outliers class and the rest of the classes are combined to form the inliers class| 0 | 8 | 12960 | 330 | 
+|  22| Tic tac toe|Tic tac toe_negative_26_variant1|Downsampling the class "negative" down to 26 objects | 0|9|652|26|
+|  23| Vote|Vote_republican_29_variant1|Downsampling the class "republican" down to 29 objects | 0|16|296|29|
+|  24| Zoo|Zoo_variant1|Classes "reptile", "amphibian" and "insect" are combined to form the outliers class and the rest of the classes are combined to form the inliers class| 0|16|101|17|
                                                    Table 2 Some numerical datasets
 | No |  Raw Datasets |New Datasets | Preprocessing | Numerical | Categorical | Objects | Ouliers | 
 | -------- |--------|-------- |-------- |-------- | -------- | --------| -------- |
