@@ -93,6 +93,6 @@ The details of data preprocessing and description are shown as Tables 1-3.
 
 [7]	Zhong Yuan, Hongmei Chen, Tianrui Li, Xianyong Zhang, Binbin Sang. Multigranulation relative entropy based mixed attribute outlier detection in neighborhood systems[J]. IEEE Transactions on Systems, Man and Cybernetics: Systems, 2022, 52(8): 5175-5187.
 	
-About more datasets
+About more datasets, such as Outlier Detection DataSets (ODDS). 
 
 [1] http://odds.cs.stonybrook.edu/
