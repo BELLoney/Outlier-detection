@@ -42,13 +42,14 @@ The details of data preprocessing and description are shown as Tables 1-3.
 | 7| Sick |Sick_variant1|Class ``sick"  are regarded as outliers|7|22|3772|231|
 | 8| Thyroid_disease |Thyroid_disease_variant1|Classes ``SVHD" and ``WEST" are combined to form the outliers class and the rest of the classes are combined to form the inliers class|7|21|9172|74|
 | 9| Labor |Labor_variant1|Class ``bad" is regarded as the outliers class|8|8|57|20|
-| 10| Bands |bands_band_6_variant1|Downsampling the class "band" down to 6 objects|20|20|318|6|
-| 11| Bands |bands_band_16_variant1|Downsampling the class "band" down to 16 objects|20|20|328|16|
-| 12| Bands |bands_band_27_variant1|Downsampling the class "band" down to 27 objects|20|20|339|27|
-| 13| Bands |bands_band_34_variant1|Downsampling the class "band" down to 34 objects|20|20|346|34|
-| 14| Bands |bands_band_42_variant1|Downsampling the class "band" down to 42 objects|20|20|354|42|
+| 10| Bands |Bands_band_6_variant1|Downsampling the class "band" down to 6 objects|20|20|318|6|
+| 11| Bands |Bands_band_16_variant1|Downsampling the class "band" down to 16 objects|20|20|328|16|
+| 12| Bands |Bands_band_27_variant1|Downsampling the class "band" down to 27 objects|20|20|339|27|
+| 13| Bands |Bands_band_34_variant1|Downsampling the class "band" down to 34 objects|20|20|346|34|
+| 14| Bands |Bands_band_42_variant1|Downsampling the class "band" down to 42 objects|20|20|354|42|
 | 15| Autos |Autos_variant1|Classes "-2" and "-1" are combined to form the outliers class and the rest of the classes are combined to form the inliers class|15|10|205|23|Annealing
 | 16| Annealing |Annealing_variant1|Classes "1" and "U" are combined to form the outliers class and the rest of the classes are combined to form the inliers class|9|29|798|42|
+| 17| Adult |Adult_>50K_343_variant1|Downsampling the class "band" down to 42 objects|20|20|354|42|
 
 [1] G. O. Campos, A. Zimek, J. Sander, R. J. Campello, B. Micenkov´a, E. Schubert, I. Assent, and M. E. Houle, “On the evaluation of unsupervised outlier detection: measures, datasets, and an empirical study,” Data Mining and Knowledge Discovery, vol. 30, no. 4, pp. 891–927, 2016.
 
