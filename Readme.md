@@ -42,19 +42,20 @@ The details of data preprocessing and description are shown as Tables 1-3.
                                                    Table 2 Some numerical datasets
 | No |  Raw Datasets |New Datasets | Preprocessing | Numerical | Categorical | Objects | Ouliers | 
 | -------- |--------|-------- |-------- |-------- | -------- | --------| -------- |
-|  1| Diabetes|Diabetes_tested_positive_26_variant1|Downsampling the class ''tested\_positive" down to 26 objects |8|0|526|26|
-|  2| Ionosphere|Ionosphere_b_24_variant1| Downsampling the class ''b" down to 24 objects |34|0|249|24|
-|  3| Iris|Iris_Irisvirginica_11_variant1| Downsampling the class ''Iris-virginica" down to 11 objects |4|0|111|11| 
-|  4| Pima|Pima_TRUE_55_variant1| Downsampling the class ''TURE" down to 55 objects |9|0|555|55| 
-|  5| Sonar|Sonar_M_10_variant1| Downsampling the class ''M" down to 10 objects|60|0|107|10|  
-|  6| Wisconsin diagnostic breast cancer|Wdbc_M_39_variant1| Downsampling the class ``M" down to 39 objects | 31|0|396|39|
-|  7| Page blocks|Pageblocks_258_variant1| Downsampling the class ''Non-text" down to 258 objects |10|0|5171|258|
-| 8| Wisconsin breast cancer|Wisconsin_malignant_39_variant1|202 ''malignant" (outlier) and 14 ``benign" objects were removed [2] | 9|0|483|39|
-| 9| Yeast|Yeast_ERL_5_variant1|Classes ''ERL" (outlier), ''CYT", ''NUC", and ''MIT" are selected [3]|8|0|1141|5|
-| 10| Waveform|Waveform_0_100_variant1|Downsampling the class ''0" down to 100 objects|21|0|3443|100|
-| 11| Spambase|Spambase_spam_56_variant1|Downsampling the class ''spam" down to 56 objects|58|0|2788|56|
-| 12| Wilt|Wilt_w_93_variant1|Downsampling the class ''w" down to 93 objects|5|0|4671|93|
-| 13| Wisconsin prognostic breast cancer|Wpbc_variant1|Class ''R" (minority) is considered as outliers|33|0|198|47|
+|  1| ALOI|ALOI_variant1|The data is divided into 1508 outliers (3.04%) and 48492 inliers (96.98%)|27|0|50000|1508|
+|  2| Cardiotocography|Cardiotocography_2and3_3_variant1|Downsampling the classes "2" and "3" down to 33 objects |21|0|1688|33|
+|  3| Diabetes|Diabetes_tested_positive_26_variant1|Downsampling the class ''tested\_positive" down to 26 objects |8|0|526|26|
+|  4| Ionosphere|Ionosphere_b_24_variant1| Downsampling the class ''b" down to 24 objects |34|0|249|24|
+|  5| Iris|Iris_Irisvirginica_11_variant1| Downsampling the class ''Iris-virginica" down to 11 objects |4|0|111|11| 
+|  6| Pima|Pima_TRUE_55_variant1| Downsampling the class ''TURE" down to 55 objects |9|0|555|55| 
+|  7| Sonar|Sonar_M_10_variant1| Downsampling the class ''M" down to 10 objects|60|0|107|10|  
+|  8| Wisconsin diagnostic breast cancer|Wdbc_M_39_variant1| Downsampling the class ``M" down to 39 objects | 31|0|396|39|
+|  9| Page blocks|Pageblocks_258_variant1| Downsampling the class ''Non-text" down to 258 objects |10|0|5171|258|
+| 10| Wisconsin breast cancer|Wisconsin_malignant_39_variant1|202 ''malignant" (outlier) and 14 ``benign" objects were removed [2] | 9|0|483|39|
+| 11| Yeast|Yeast_ERL_5_variant1|Classes ''ERL" (outlier), ''CYT", ''NUC", and ''MIT" are selected [3]|8|0|1141|5|
+| 12| Waveform|Waveform_0_100_variant1|Downsampling the class ''0" down to 100 objects|21|0|3443|100|
+| 13| Spambase|Spambase_spam_56_variant1|Downsampling the class ''spam" down to 56 objects|58|0|2788|56|
+| 14| Wisconsin prognostic breast cancer|Wpbc_variant1|Class ''R" (minority) is considered as outliers|33|0|198|47|
                                                     Table 3 Some mixed datasets
 | No |  Raw Datasets |New Datasets |  Preprocessing | Numerical | Categorical |Objects | Ouliers | 
 | -------- |--------|-------- |-------- |-------- | -------- | --------| -------- |
