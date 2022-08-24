@@ -72,9 +72,10 @@ The details of data preprocessing and description are shown as Tables 1-3.
 | 18| Heart disease |Heart_2_16_variant1|Downsampling the class ``2" down to 16 objects| 6|7|166|16|
 | 19| Hepatitis |Hepatitis_2_9_variant1|Downsampling the class ``2" down to 9 objects |6|13|94|9|
 | 20| Horse |Horse_1_12_variant1|Downsampling the class ``1" down to 12 objects|8|19|256|12|
-| 21| Sick |Sick_variant1|Class ``sick"  are regarded as outliers|7|22|3772|231|
-| 22| Thyroid_disease |Thyroid_disease_variant1|Classes ``SVHD" and ``WEST" are combined to form the outliers class and the rest of the classes are combined to form the inliers class|7|21|9172|74|
-| 23| Labor |Labor_variant1|Class ``bad" is regarded as the outliers class|8|8|57|20|
+| 21| Sick |Sick_sick_35_variant1|Downsampling the class "sick" down to 35 objects|7|22|3756|35|
+| 22| Sick |Sick_sick_72_variant1|Downsampling the class "sick" down to 72 objects|7|22|3613|72|
+| 23| Thyroid_disease |Thyroid_disease_variant1|Classes ``SVHD" and ``WEST" are combined to form the outliers class and the rest of the classes are combined to form the inliers class|7|21|9172|74|
+| 24| Labor |Labor_variant1|Class ``bad" is regarded as the outliers class|8|8|57|20|
 
 [1] G. O. Campos, A. Zimek, J. Sander, R. J. Campello, B. Micenkov´a, E. Schubert, I. Assent, and M. E. Houle, “On the evaluation of unsupervised outlier detection: measures, datasets, and an empirical study,” Data Mining and Knowledge Discovery, vol. 30, no. 4, pp. 891–927, 2016.
 
