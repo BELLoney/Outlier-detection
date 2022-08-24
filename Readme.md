@@ -16,9 +16,9 @@ The details of data preprocessing and description are shown as Tables 1-3.
 |  2| Breast cancer |Balance scale_variant1|Class "recurrence-events" is regarded as the outliers class| 0 | 9 | 286 | 85 | 
 |  3| Chess |Chess_nowin_16_variant1|Downsampling the class "nowin" down to 16 objects| 0 | 36 | 1685 | 16 | 
 |  4| Chess |Chess_nowin_34_variant1|Downsampling the class "nowin" down to 34 objects| 0 | 36 | 1703 | 34 |
-|  5| Chess |Chess_nowin_16_variant1|Downsampling the class "nowin" down to 87 objects| 0 | 36 | 1756 | 87 |
-|  6| Chess |Chess_nowin_16_variant1|Downsampling the class "nowin" down to 145 objects| 0 | 36 | 1814 | 145 |
-|  7| Chess |Chess_nowin_16_variant1|Downsampling the class "nowin" down to 185 objects| 0 | 36 | 1854 | 185 |
+|  5| Chess |Chess_nowin_87_variant1|Downsampling the class "nowin" down to 87 objects| 0 | 36 | 1756 | 87 |
+|  6| Chess |Chess_nowin_145_variant1|Downsampling the class "nowin" down to 145 objects| 0 | 36 | 1814 | 145 |
+|  7| Chess |Chess_nowin_185_variant1|Downsampling the class "nowin" down to 185 objects| 0 | 36 | 1854 | 185 |
 |  8| Connect-4 |Connect-4_variant1|Class "draw" is regarded as the outliers class| 0 | 42 | 67557 | 6449 | 
 |  9| Lymphography|Lymphography| Classes ''1'' and ''4'' are considered as outliers [2] | 0 | 8 | 148 | 6 |
 |  10| Monks |Chess_0_4_variant1|Downsampling the class "0" down to 4 objects| 0 | 6 | 232 | 4 |
