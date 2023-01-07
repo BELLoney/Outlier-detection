@@ -5,8 +5,8 @@ function WFDens=WFRDA(data,sigma)
 %%%input:
 % data is data matrix without decisions, where rows for samples and columns for attributes. 
 %%%output
-% Weighted density,i.e.,inlier score
-[n,m]=size(data); % n为样本数 m为属性个数(最后一列为决策属性)
+% Weighted density,i.e.,anomaly score
+[n,m]=size(data); 
 
 delta=zeros(1,m);%Initialize the radius  
 for k=1:m
