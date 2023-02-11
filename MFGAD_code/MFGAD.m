@@ -14,7 +14,7 @@ function MFGAF=MFGAD(data,delta)
 varepsilon=zeros(1,m);
 for j=1:m
     if min(data(:,j))==0&&max(data(:,j))==1
-     varepsilon(j)=std(data(:,j),1)/delta; 
+     varepsilon(j)=std(data(:,j),1)/delta;
     end
 end
 
