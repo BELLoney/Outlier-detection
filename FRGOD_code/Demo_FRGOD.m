@@ -1,9 +1,4 @@
-
-data_nameori='Example';
-data_name='Example';
-
-eval(['load ' data_nameori ';']);
-
+load Example.mat
 Dataori=Example;
 
 trandata=Dataori;
