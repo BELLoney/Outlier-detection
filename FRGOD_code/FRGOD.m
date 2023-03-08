@@ -1,7 +1,7 @@
 %%Detecting Fuzzy Rough Granules-based Outlier Detection (FRGOD) algorithm
 %%Please refer to the following papers: 
 %%Yuan Zhong, Chen Hongmei, Li Tianrui, Sang Binbin, ShuWang. 
-%%Outlier Detection based on fuxxy rough granules in mixed attribute data,
+%%Outlier Detection based on fuzzy rough granules in mixed attribute data,
 %%IEEE Transactions on Cybernetics,2021.
 %%Uploaded by Yuan Zhong on Oct. 12, 2021. E-mail:yuanzhong2799@foxmail.com.
 function FRGOF=FRGOD(data,lammda)
@@ -13,16 +13,16 @@ function FRGOF=FRGOD(data,lammda)
 
 [n,m]=size(data);
 
-%%%%%%%%%%%%%%%%% ¼ÆËãµÚl¸öÌõ¼şÊôĞÔµÄÁÚÓò¼¯ºÏ
-LA=1:m; %ÊôĞÔ¼¯ºÏĞòºÅ
-weight1=zeros(n,m);%µ¥ÊôĞÔÈ¨ÖØ
-weight3=zeros(n,m);%µ¥ÊôĞÔÈ¨ÖØ
-%Acc_A_a=zeros(n,m);%È¥µôÒ»¸öÊôĞÔÖ®ºóµÄ½üËÆ¾«¶È
-% delta=[0.1 0 0.1]; %×Ô¼º¸³Öµdelta
-delta=zeros(1,m);%³õÊ¼»¯ÁÚÓò°ë¾¶  
+%%%%%%%%%%%%%%%%% è®¡ç®—ç¬¬lä¸ªæ¡ä»¶å±æ€§çš„é‚»åŸŸé›†åˆ
+LA=1:m; %å±æ€§é›†åˆåºå·
+weight1=zeros(n,m);%å•å±æ€§æƒé‡
+weight3=zeros(n,m);%å•å±æ€§æƒé‡
+%Acc_A_a=zeros(n,m);%å»æ‰ä¸€ä¸ªå±æ€§ä¹‹åçš„è¿‘ä¼¼ç²¾åº¦
+% delta=[0.1 0 0.1]; %è‡ªå·±èµ‹å€¼delta
+delta=zeros(1,m);%åˆå§‹åŒ–é‚»åŸŸåŠå¾„  
 for j=1:m
     if min(data(:,j))==0&&max(data(:,j))==1
-     delta(j)=std(data(:,j),1)/lammda; %ÇóÊıÖµĞÍÊôĞÔµÄÁÚÓò°ë¾¶
+     delta(j)=std(data(:,j),1)/lammda; %æ±‚æ•°å€¼å‹å±æ€§çš„é‚»åŸŸåŠå¾„
     end
 end
 %%%%%%%%%%%%%compute relation matrices with a single attribute%%%%%%%%%
@@ -44,10 +44,10 @@ end
 %%
 for l=1:m
 lA_d=setdiff(LA,l);
-eval(['Acc_A_a' num2str(l) '=zeros(n,m);'])%È¥µôÒ»¸öÊôĞÔÖ®ºóµÄ½üËÆ¾«¶È
+eval(['Acc_A_a' num2str(l) '=zeros(n,m);'])%å»æ‰ä¸€ä¸ªå±æ€§ä¹‹åçš„è¿‘ä¼¼ç²¾åº¦
 NbrSet_tem=eval(['NbrSet' num2str(l)]);
-[NbrSet_temp,ia,ic]=unique(NbrSet_tem,'rows');%iaÎª¾ØÕóNbrSet_tempÖĞµÄÔªËØÔÚ¾ØÕóNbrSet_temÖĞµÄÎ»ÖÃ£¬
-%icÎª¾ØÕóNbrSet_temÖĞµÄÔªËØÔÚ¾ØÕóNbrSet_tempÖĞµÄÎ»ÖÃ¡£
+[NbrSet_temp,ia,ic]=unique(NbrSet_tem,'rows');%iaä¸ºçŸ©é˜µNbrSet_tempä¸­çš„å…ƒç´ åœ¨çŸ©é˜µNbrSet_temä¸­çš„ä½ç½®ï¼Œ
+%icä¸ºçŸ©é˜µNbrSet_temä¸­çš„å…ƒç´ åœ¨çŸ©é˜µNbrSet_tempä¸­çš„ä½ç½®ã€‚
 for i=1:size(NbrSet_temp,1)
     i_tem=find(ic==i);
 for k=0:m-1 
@@ -57,9 +57,9 @@ else
 lA_de=setdiff(lA_d,lA_d(k));
 end
 %eval(['NbrSet_deA' num2str(l) '=zeros(n,n);']);
-lA_de_L=length(lA_de);%ÇóÊôĞÔ×Ó¼¯³¤¶È
-Low_A=[];% ÖÃ¿Õ´¦Àí
-Upp_A=[];% ÖÃ¿Õ´¦Àí
+lA_de_L=length(lA_de);%æ±‚å±æ€§å­é›†é•¿åº¦
+Low_A=[];% ç½®ç©ºå¤„ç†
+Upp_A=[];% ç½®ç©ºå¤„ç†
    NbrSet_tmp=eval(['NbrSet' num2str(lA_de(1))]);
 for j=1:lA_de_L
         NbrSet_tmpAtemp=eval(['NbrSet' num2str(lA_de(j))]);
