@@ -1,7 +1,8 @@
 %%Detecting Fuzzy Rough Granules-based Outlier Detection (FRGOD) algorithm
 %%Please refer to the following papers: 
 %%Yuan Zhong, Chen Hongmei, Li Tianrui, Sang Binbin, ShuWang. 
-%%Outlier Detection based on fuzzy rough granules in mixed attribute data,IEEE Transactions on Cybernetics,2022.
+%%Outlier Detection based on fuzzy rough granules in mixed attribute data,
+%%IEEE Transactions on Cybernetics,2021.
 %%Uploaded by Yuan Zhong on Oct. 12, 2021. E-mail:yuanzhong2799@foxmail.com.
 %%Optimized by Yuan Zhong on Mar. 8, 2023. E-mail:yuanzhong2799@foxmail.com.
 function FRGOF=FRGOD(data,lammda)
@@ -34,6 +35,7 @@ for col=1:m
     Acc_A_a_tem=zeros(n, m);
     [NbrSet_temp,~,ic]=unique(NbrSet(:, :, col),'rows');
     for i=1:size(NbrSet_temp,1)
+        RM_temp=repmat(NbrSet_temp(i,:),n,1);
         i_tem=find(ic==i);
         for k=0:m-1 
            if k==0
@@ -42,8 +44,8 @@ for col=1:m
                lA_de=setdiff(lA_d,lA_d(k));
             end
             NbrSet_tmp = min(NbrSet(:, :, lA_de), [], 3);
-            Low_A=sum(min(max(1- NbrSet_tmp,repmat(NbrSet_temp(i,:),n,1)),[],2));
-            Upp_A=sum(max(min(NbrSet_tmp,repmat(NbrSet_temp(i,:),n,1)),[],2));
+            Low_A=sum(min(max(1- NbrSet_tmp,RM_temp),[],2));
+            Upp_A=sum(max(min(NbrSet_tmp,RM_temp),[],2));
             Acc_A_a_tem(i_tem,k+1)=Low_A/Upp_A;
         end
         Acc_A_a(:, :, col)=Acc_A_a_tem;
