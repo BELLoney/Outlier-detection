@@ -37,6 +37,7 @@ for k=1:m
     FSet_de=mfgad_rm(data(:,b_de(1:(m-k+1))),varepsilon(b_de(1:(m-k+1))));
     FSet_as=mfgad_rm(data(:,b_as(1:(m-k+1))),varepsilon(b_as(1:(m-k+1))));
     for i=1:n
+        %weight(i,k)=sqrt(sum(FSet(i,:))/n);
         weight(i,k)=sum(FSet(i,:))/n;  
         FG_de(i,k)=sum(FSet_de(i,:));
         FG_as(i,k)=sum(FSet_as(i,:));
