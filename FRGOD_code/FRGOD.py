@@ -14,7 +14,7 @@ from sklearn.preprocessing import MinMaxScaler
 # lammda is used to adjust the adaptive fuzzy radius.
 # Numeric attributes are normalized to [0,1].
 # output:
-# Ranking objects and fuzzy rough granules-based outlier factor (FRGOF)
+# Fuzzy rough granules-based outlier factor (FRGOF)
 
 def FRGOD(data, lammda):
     n, m = data.shape
