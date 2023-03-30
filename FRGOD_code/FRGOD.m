@@ -11,7 +11,7 @@ function FRGOF=FRGOD(data,lammda)
 % lammda is used to adjust the adaptive fuzzy radius.
 % Numeric attributes are normalized to [0,1]
 %%%output
-% Ranking objects and fuzzy rough granules-based outlier factor (FRGOF).
+% Fuzzy rough granules-based outlier factor (FRGOF).
 
 [n,m]=size(data);
 %%%%%%%%%%%%%%%%% 计算第l个条件属性的邻域集合
