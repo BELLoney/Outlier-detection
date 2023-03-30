@@ -28,10 +28,10 @@ def FRGOD(data, lammda):
         temp[temp > delta[col]] = 1
         r = 1 - temp
         NbrSet[:, :, col] = r
+        
     LA = np.arange(0, m)
     weight1 = np.zeros((n, m))
     weight3 = np.zeros((n, m))
-
     Acc_A_a = np.zeros((n, m, m))
     for col in range(0, m):
         lA_d = np.setdiff1d(LA, col)
@@ -46,9 +46,7 @@ def FRGOD(data, lammda):
                     lA_de = lA_d
                 else:
                     lA_de = np.setdiff1d(lA_d, lA_d[k])
-
                 NbrSet_tmp = np.min(NbrSet[:, :, lA_de], axis=2)
-
                 Low_A = sum((np.maximum(1 - NbrSet_tmp, RM_temp)).min(-1))
                 Upp_A = sum((np.minimum(NbrSet_tmp, RM_temp)).max(-1))
                 Acc_A_a_tem[i_tem, k + 1] = Low_A / Upp_A
