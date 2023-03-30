@@ -64,7 +64,6 @@ def FRGOD(data, lammda):
     FRGOF = np.mean(FSDOG * weight3, axis=1)
     return FRGOF
 
-
 if __name__ == "__main__":
     load_data = loadmat('Example.mat')
     trandata = load_data['Example']
