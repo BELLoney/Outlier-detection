@@ -54,6 +54,7 @@ for col=1:m
    end
 end
 %%
+FSDOG=zeros(n,m);
 for col = 1:m
     Acc_A_a_tem = Acc_A_a(:,:,col);
     FSDOG(:,col) = 1 - ((sum((Acc_A_a_tem(:,2:m)+1)./2,2) + Acc_A_a_tem(:,1))/m).*weight1(:,col);
