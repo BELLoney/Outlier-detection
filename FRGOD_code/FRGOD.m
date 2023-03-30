@@ -9,6 +9,7 @@ function FRGOF=FRGOD(data,lammda)
 %%%input:
 % data is data matrix without decisions, where rows for samples and columns for attributes. 
 % lammda is used to adjust the adaptive fuzzy radius.
+% Numeric attributes are normalized to [0,1]
 %%%output
 % Ranking objects and fuzzy rough granules-based outlier factor (FRGOF).
 
