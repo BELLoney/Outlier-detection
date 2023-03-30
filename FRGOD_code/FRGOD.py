@@ -9,7 +9,6 @@ from scipy.io import loadmat
 from scipy.spatial.distance import cdist
 from sklearn.preprocessing import MinMaxScaler
 
-
 # input:
 # data is data matrix without decisions, where rows for samples and columns for attributes.
 # lammda is used to adjust the adaptive fuzzy radius.
