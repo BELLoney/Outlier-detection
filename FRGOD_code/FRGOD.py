@@ -1,6 +1,6 @@
 # Detecting Fuzzy Rough Granules-based Outlier Detection (FRGOD) algorithm
 # Please refer to the following papers:
-# Yuan Zhong, Chen Hongmei, Li Tianrui, Sang Binbin, ShuWang.
+# Yuan Zhong, Chen Hongmei, Li Tianrui, Sang Binbin, Shu Wang.
 # Outlier Detection based on fuzzy rough granules in mixed attribute data,
 # IEEE Transactions on Cybernetics,2022.
 # Uploaded by Yuan Zhong on Mar. 30, 2023. E-mail:yuanzhong2799@foxmail.com.
