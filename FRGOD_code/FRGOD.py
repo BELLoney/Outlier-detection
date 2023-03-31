@@ -20,7 +20,7 @@ def FRGOD(data, lammda):
     n, m = data.shape
 
     delta = np.zeros(m)
-    ID = (data <= 1).all(axis=0)
+    ID = (data <= 1).all(axis=0) & (data.max(axis=0) != data.min(axis=0))
     delta[ID] = (np.std(data[:, ID], axis=0)) / lammda
 
     NbrSet = np.zeros((n, n, m))
