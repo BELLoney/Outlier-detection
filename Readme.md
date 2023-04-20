@@ -75,7 +75,7 @@ The details of data preprocessing and description are shown as Tables 1-3.
 | 14| Bands |Bands_band_34_variant1|Downsampling the class "band" down to 34 objects|20|20|346|34|
 | 15| Bands |Bands_band_42_variant1|Downsampling the class "band" down to 42 objects|20|20|354|42|
 | 16| Credit approval|CreditA_plus_42_variant1|Downsampling the class ``+" down to 42 objects|6|9|425|42|
-| 17| German|German_1_14_variant1|Downsampling the class ``2" down to 14 objects|7|13|714|14|
+| 17| German|German_1_14_variant1|Downsampling the class ``1" down to 14 objects|7|13|714|14|
 | 18| Heart disease |Heart_2_16_variant1|Downsampling the class ``2" down to 16 objects| 6|7|166|16|
 | 19| Hepatitis |Hepatitis_2_9_variant1|Downsampling the class ``2" down to 9 objects |6|13|94|9|
 | 20| Horse |Horse_1_12_variant1|Downsampling the class ``1" down to 12 objects|8|19|256|12|
