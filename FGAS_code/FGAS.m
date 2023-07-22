@@ -1,13 +1,14 @@
-%% Fuzzy granular anomaly detection using Markov random walk (FGAS) algorithm
-%% Please refer to the following papers:
-%% Fuzzy granular anomaly detection using Markov random walk, Information Sciences, 2023.
+%%Fuzzy granular anomaly detection using Markov random walk (FGAS) algorithm
+%%Please refer to the following papers:
+%%Fuzzy granular anomaly detection using Markov random walk, Information Sciences, 2023.
+%%Uploaded by Yuan Zhong on Jul. 22, 2023. E-mail:yuanzhong2799@foxmail.com.
 function AS=FGAS(data,sigma)
 %%%input:
 % data is data matrix without decisions, where rows for samples and columns for attributes.
 % All attributes should be normalized into [0,1]
 % sigma is a given parameter for the radius adjustment
 %%%output
-%¡¡Fuzzy anomaly score¡¡AS.
+%%Fuzzy anomaly score AS.
 
 d=0.1;%
 [n,m]=size(data);
