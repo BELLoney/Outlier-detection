@@ -9,7 +9,7 @@ Most of these data sets are used for the evaluation of classification and cluste
 
 **The last column of the data matrix is the true label, where 1 denotes outliers and 0 denotes inliers.**
 
-The details of data preprocessing and description are shown as Tables 1-3. 
+The details of data preprocessing and description are shown as Tables 1-3. $\delta$
 
                                                    Table 1 Some nominal datasets
 | No |  Raw Datasets |New Datasets | Preprocessing | Numerical | Categorical | Objects | Outliers | 
