@@ -25,9 +25,9 @@ The details of data preprocessing and description are shown as Tables 1-3.
 |  9| Connect_4 |Connect_4_draw_617_variant1|Class "draw" is regarded as the outliers class and downsampled to 617 objects| 0 | 42 | 61725 | 617 | 
 |  10| Connect_4 |Connect_4_draw_1247_variant1|Class "draw" is regarded as the outliers class and downsampled to 1247 objects| 0 | 42 | 62355 | 1247 | 
 |  11| Lymphography|Lymphography| Classes ''1'' and ''4'' are considered as outliers [2] | 0 | 8 | 148 | 6 |
-|  12| Monks |Chess_0_4_variant1|Downsampling the class "0" down to 4 objects| 0 | 6 | 232 | 4 |
-|  13| Monks |Chess_0_12_variant1|Downsampling the class "0" down to 12 objects| 0 | 6 | 240 | 12 |
-|  14| Monks |Chess_0_25_variant1|Downsampling the class "0" down to 25 objects| 0 | 6 | 253 | 25 |
+|  12| Monks |Monks_0_4_variant1|Downsampling the class "0" down to 4 objects| 0 | 6 | 232 | 4 |
+|  13| Monks |Monks_0_12_variant1|Downsampling the class "0" down to 12 objects| 0 | 6 | 240 | 12 |
+|  14| Monks |Monks_0_25_variant1|Downsampling the class "0" down to 25 objects| 0 | 6 | 253 | 25 |
 |  15| Mushroom|Mushroom_p_85_variant1|Downsampling the class ''+" down to 85 objects | 0|22|4293|85|
 |  16| Mushroom|Mushroom_p_221_variant1|Downsampling the class ''+" down to 221 objects | 0|22|4429|221|
 |  17| Mushroom|Mushroom_p_365_variant1|Downsampling the class ''+" down to 365 objects | 0|22|4573|365|
