@@ -69,7 +69,7 @@ The details of data preprocessing and description are shown as Tables 1-3.
 | 6| Adult |Adult_morethan50K_3779_variant1|Downsampling the class ">50k" down to 3779 objects|6|8|37793|3779|
 | 7| Adult |Adult_morethan50K_4638_variant1|Downsampling the class ">50k" down to 4638 objects|6|8|38652|4638|
 | 8| Autos |Autos_variant1|Classes "-2" and "-1" are combined to form the outliers class and the rest of the classes are combined to form the inliers class|15|10|205|25|Annealing
-| 9| Annealing |Annealing_variant1|Classes "1" and "U" are combined to form the outliers class and the rest of the classes are combined to form the inliers class|9|29|798|42|
+| 9| Annealing |Annealing_variant1|Classes "1" and "U" are combined to form the outliers class and the rest of the classes are combined to form the inliers class|10|28|798|42|
 | 10| Arrhythmia |Arrhythmia_variant1|Classes 3, 4, 5, 7, 8, 9, 14, 15 are combined to form the outliers class and the rest of the classes are combined to form the inliers class|206|73|452|66|
 | 11| Bands |Bands_band_6_variant1|Downsampling the class "band" down to 6 objects|20|20|318|6|
 | 12| Bands |Bands_band_16_variant1|Downsampling the class "band" down to 16 objects|20|20|328|16|
