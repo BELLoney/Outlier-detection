@@ -71,11 +71,11 @@ The details of data preprocessing and description are shown as Tables 1-3.
 | 8| Autos |Autos_variant1|Classes "-2" and "-1" are combined to form the outliers class and the rest of the classes are combined to form the inliers class|15|10|205|25|Annealing
 | 9| Annealing |Annealing_variant1|Classes "1" and "U" are combined to form the outliers class and the rest of the classes are combined to form the inliers class|10|28|798|42|
 | 10| Arrhythmia |Arrhythmia_variant1|Classes 3, 4, 5, 7, 8, 9, 14, 15 are combined to form the outliers class and the rest of the classes are combined to form the inliers class|206|73|452|66|
-| 11| Bands |Bands_band_6_variant1|Downsampling the class "band" down to 6 objects|20|20|318|6|
-| 12| Bands |Bands_band_16_variant1|Downsampling the class "band" down to 16 objects|20|20|328|16|
-| 13| Bands |Bands_band_27_variant1|Downsampling the class "band" down to 27 objects|20|20|339|27|
-| 14| Bands |Bands_band_34_variant1|Downsampling the class "band" down to 34 objects|20|20|346|34|
-| 15| Bands |Bands_band_42_variant1|Downsampling the class "band" down to 42 objects|20|20|354|42|
+| 11| Bands |Bands_band_6_variant1|Downsampling the class "band" down to 6 objects|20|19|318|6|
+| 12| Bands |Bands_band_16_variant1|Downsampling the class "band" down to 16 objects|20|19|328|16|
+| 13| Bands |Bands_band_27_variant1|Downsampling the class "band" down to 27 objects|20|19|339|27|
+| 14| Bands |Bands_band_34_variant1|Downsampling the class "band" down to 34 objects|20|19|346|34|
+| 15| Bands |Bands_band_42_variant1|Downsampling the class "band" down to 42 objects|20|19|354|42|
 | 16| Credit approval|CreditA_plus_42_variant1|Downsampling the class ``+" down to 42 objects|6|9|425|42|
 | 17| German|German_1_14_variant1|Downsampling the class ``1" down to 14 objects|7|13|714|14|
 | 18| Heart disease |Heart_2_16_variant1|Downsampling the class ``2" down to 16 objects| 6|7|166|16|
