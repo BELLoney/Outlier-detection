@@ -5,13 +5,16 @@ Remark: Relevant algorithm code will be uploaded one after another, welcome to d
 
 In order to evaluate the effectiveness of an outlier detection algorithm, some data sets (including numeric, categorical, and mixed attributes) are selected from the UCI machine learning repository for experiments.
 
-Most of these data sets are used for the evaluation of classification and clustering methods. By contrast, for the evaluation of outlier detection, there are very few existing data sets. Accordingly, this paper uses the downsampling method proposed in the document [1] to obtain some data sets for evaluating outlier detection. The method randomly downsamples a particular class to produce outliers while preserving all objects of the remaining classes to form an outlier detection data set. In addition, for the missing values of data set, this paper uses the maximum probability value method to complete the missing value, that is, the value of attribute with the highest frequency on other objects is used to fill the missing attribute value [4,5].
+Most of these data sets are used for the evaluation of classification and clustering methods. By contrast, for the evaluation of outlier detection, there are very few existing data sets. Accordingly, this paper uses the downsampling method proposed in the document [1] to obtain some data sets for evaluating outlier detection. 
+
+The method randomly downsamples a particular class to produce outliers while preserving all objects of the remaining classes to form an outlier detection data set. In addition, for the missing values of data set, this paper uses the maximum probability value method to complete the missing value, that is, the value of attribute with the highest frequency on other objects is used to fill the missing attribute value [4,5].
 
 **The last column of the data matrix is the true label, where 1 denotes outliers and 0 denotes inliers.**
 
-The details of data preprocessing and description are shown as Tables 1-3.
+The details of data preprocessing and description are shown as follows.
 
-                                                   Table 1 Nominal datasets
+# Nominal datasets
+
 | No. |  Raw Datasets |New Datasets | Preprocessing | Numerical | Categorical | Objects | Outliers | 
 | -------- |--------|-------- |-------- |-------- | -------- | --------| -------- |
 |  1| Audiology|Audiology_variant1|Classes "cochlear_age", "cochlear_age_and_noise", "cochlear_poss_noise","cochlear_unknown", and "normal_ear" are combined to form the inliers class and the rest of the classes are combined to form the outliers class| 0 | 69 | 226 | 53 | 
@@ -41,7 +44,9 @@ The details of data preprocessing and description are shown as Tables 1-3.
 |  25| Tic-tac-toe|Tic-tac-toe_negative_69_variant1|Downsampling the class "negative" down to 69 objects | 0|9|695|69|
 |  26| Vote|Vote_republican_29_variant1|Downsampling the class "republican" down to 29 objects | 0|16|296|29|
 |  27| Zoo|Zoo_variant1|Classes "reptile", "amphibian" and "insect" are combined to form the outliers class and the rest of the classes are combined to form the inliers class| 0|16|101|17|
-                                                   Table 2 Numerical datasets
+
+# Numerical datasets
+
 | No. |  Raw Datasets |New Datasets | Preprocessing | Numerical | Categorical | Objects | Ouliers | 
 | -------- |--------|-------- |-------- |-------- | -------- | --------| -------- |
 |  1| ALOI|ALOI_variant1|The data is divided into 1508 outliers (3.04%) and 48492 inliers (96.98%)|27|0|50000|1508|
@@ -58,7 +63,9 @@ The details of data preprocessing and description are shown as Tables 1-3.
 | 12| Waveform|Waveform_0_100_variant1|Downsampling the class ''0" down to 100 objects|21|0|3443|100|
 | 13| Spambase|Spambase_spam_56_variant1|Downsampling the class ''spam" down to 56 objects|58|0|2844|56|
 | 14| Wisconsin prognostic breast cancer|Wpbc_variant1|Class ''R" (minority) is considered as outliers|33|0|198|47|
-                                                    Table 3 Mixed datasets
+
+# Mixed datasets
+
 | No. |  Raw Datasets |New Datasets |  Preprocessing | Numerical | Categorical |Objects | Ouliers | 
 | -------- |--------|-------- |-------- |-------- | -------- | --------| -------- |
 | 1| Abalone |Abalone_variant1|Classes "1-3", "20-27" and 29 are combined to form the outliers class and the rest of the classes are combined to form the inliers class|8|1|4177|79|
@@ -86,8 +93,7 @@ The details of data preprocessing and description are shown as Tables 1-3.
 | 23| Thyroid_disease |Thyroid_disease_variant1|Classes ``SVHD" and ``WEST" are combined to form the outliers class and the rest of the classes are combined to form the inliers class|7|21|9172|74|
 
 # ODDS
-
-						Table 4 ODDS datasets
+				
 | No. | Dataset               | #Objects  | #Numerical | #outliers (%) |
 |-----|-----------------------|----------|-------|---------------|
 | 1   | Annthyroid            | 7200     | 6     | 534 (7.42%)   |
@@ -114,7 +120,7 @@ The details of data preprocessing and description are shown as Tables 1-3.
 | 22  | Thyroid               | 3772     | 6     | 93 (2.5%)     |
 | 23  | Vertebral             | 240      | 6     | 30 (12.5%)    |
 | 24  | Vowels                | 1456     | 12    | 50 (3.4%)     |
-| 25  | WBC                   | 278      | 30    | 21 (5.6%)     |
+| 25  | WBC                   | 378      | 30    | 21 (5.6%)     |
 | 26  | Wine                  | 129      | 13    | 10 (7.7%)     |
 
 
