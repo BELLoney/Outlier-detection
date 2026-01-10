@@ -17,7 +17,7 @@ The details of data preprocessing and description are shown as follows.
 
 # Nominal datasets
 
-| No. |  Raw Datasets |New Datasets | Preprocessing | Numerical | Categorical | Objects | Outliers | 
+| No. |  Raw Datasets |New Datasets | Preprocessing | Numerical | Nominal | Objects | Outliers | 
 | -------- |--------|-------- |-------- |-------- | -------- | --------| -------- |
 |  1| Audiology|Audiology_variant1|Classes "cochlear_age", "cochlear_age_and_noise", "cochlear_poss_noise","cochlear_unknown", and "normal_ear" are combined to form the inliers class and the rest of the classes are combined to form the outliers class| 0 | 69 | 226 | 53 | 
 |  2| Breast cancer |Balance scale_variant1|Class "recurrence-events" is regarded as the outliers class| 0 | 9 | 286 | 85 | 
