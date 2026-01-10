@@ -12,7 +12,7 @@ Most of these data sets are used for the evaluation of classification and cluste
 The details of data preprocessing and description are shown as Tables 1-3.
 
                                                    Table 1 Nominal datasets
-| No |  Raw Datasets |New Datasets | Preprocessing | Numerical | Categorical | Objects | Outliers | 
+| No. |  Raw Datasets |New Datasets | Preprocessing | Numerical | Categorical | Objects | Outliers | 
 | -------- |--------|-------- |-------- |-------- | -------- | --------| -------- |
 |  1| Audiology|Audiology_variant1|Classes "cochlear_age", "cochlear_age_and_noise", "cochlear_poss_noise","cochlear_unknown", and "normal_ear" are combined to form the inliers class and the rest of the classes are combined to form the outliers class| 0 | 69 | 226 | 53 | 
 |  2| Breast cancer |Balance scale_variant1|Class "recurrence-events" is regarded as the outliers class| 0 | 9 | 286 | 85 | 
@@ -42,7 +42,7 @@ The details of data preprocessing and description are shown as Tables 1-3.
 |  26| Vote|Vote_republican_29_variant1|Downsampling the class "republican" down to 29 objects | 0|16|296|29|
 |  27| Zoo|Zoo_variant1|Classes "reptile", "amphibian" and "insect" are combined to form the outliers class and the rest of the classes are combined to form the inliers class| 0|16|101|17|
                                                    Table 2 Numerical datasets
-| No |  Raw Datasets |New Datasets | Preprocessing | Numerical | Categorical | Objects | Ouliers | 
+| No. |  Raw Datasets |New Datasets | Preprocessing | Numerical | Categorical | Objects | Ouliers | 
 | -------- |--------|-------- |-------- |-------- | -------- | --------| -------- |
 |  1| ALOI|ALOI_variant1|The data is divided into 1508 outliers (3.04%) and 48492 inliers (96.98%)|27|0|50000|1508|
 |  2| Cardiotocography|Cardiotocography_2and3_3_variant1|Downsampling the classes "2" and "3" down to 33 objects |21|0|1688|33|
@@ -59,7 +59,7 @@ The details of data preprocessing and description are shown as Tables 1-3.
 | 13| Spambase|Spambase_spam_56_variant1|Downsampling the class ''spam" down to 56 objects|58|0|2844|56|
 | 14| Wisconsin prognostic breast cancer|Wpbc_variant1|Class ''R" (minority) is considered as outliers|33|0|198|47|
                                                     Table 3 Mixed datasets
-| No |  Raw Datasets |New Datasets |  Preprocessing | Numerical | Categorical |Objects | Ouliers | 
+| No. |  Raw Datasets |New Datasets |  Preprocessing | Numerical | Categorical |Objects | Ouliers | 
 | -------- |--------|-------- |-------- |-------- | -------- | --------| -------- |
 | 1| Abalone |Abalone_variant1|Classes "1-3", "20-27" and 29 are combined to form the outliers class and the rest of the classes are combined to form the inliers class|8|1|4177|79|
 | 2| Adult |Adult_morethan50K_343_variant1|Downsampling the class ">50k" down to 343 objects|6|8|34357|343|
@@ -84,6 +84,48 @@ The details of data preprocessing and description are shown as Tables 1-3.
 | 21| Sick |Sick_sick_35_variant1|Downsampling the class "sick" down to 35 objects|7|22|3576|35|
 | 22| Sick |Sick_sick_72_variant1|Downsampling the class "sick" down to 72 objects|7|22|3613|72|
 | 23| Thyroid_disease |Thyroid_disease_variant1|Classes ``SVHD" and ``WEST" are combined to form the outliers class and the rest of the classes are combined to form the inliers class|7|21|9172|74|
+
+# ODDS
+
+						Table 4 ODDS datasets
+| No. | Dataset               | #Objects  | #Numerical | #outliers (%) |
+|-----|-----------------------|----------|-------|---------------|
+| 1   | Annthyroid            | 7200     | 6     | 534 (7.42%)   |
+| 2   | Arrhythmia            | 452      | 274   | 66 (15%)      |
+| 3   | BreastW               | 683      | 9     | 239 (35%)     |
+| 4   | Cardio                | 1831     | 21    | 176 (9.6%)    |
+| 5   | Ecoli                 | 336      | 7     | 9 (2.6%)      |
+| 6   | ForestCover           | 286048   | 10    | 2747 (0.9%)   |
+| 7   | Glass                 | 214      | 9     | 9 (4.2%)      |
+| 8   | Http (KDDCUP99)       | 567479   | 3     | 2211 (0.4%)   |
+| 9   | Ionosphere            | 351      | 33    | 126 (36%)     |
+| 10  | Letter Recognition    | 1600     | 32    | 100 (6.25%)   |
+| 11  | Lympho                | 148      | 18    | 6 (4.1%)      |
+| 12  | Mammography           | 11183    | 6     | 260 (2.32%)   |
+| 13  | Mnist                 | 7603     | 100   | 700 (9.2%)    |
+| 14  | Musk                  | 3062     | 166   | 97 (3.2%)     |
+| 15  | Optdigits             | 5216     | 64    | 150 (3%)      |
+| 16  | Pendigits             | 6870     | 16    | 156 (2.27%)   |
+| 17  | Satellite             | 6435     | 36    | 2036 (32%)    |
+| 18  | Satimage-2            | 5803     | 36    | 71 (1.2%)     |
+| 19  | Shuttle               | 49097    | 9     | 3511 (7%)     |
+| 20  | Smtp (KDDCUP99)       | 95156    | 3     | 30 (0.03%)    |
+| 21  | Speech                | 3686     | 400   | 61 (1.65%)    |
+| 22  | Thyroid               | 3772     | 6     | 93 (2.5%)     |
+| 23  | Vertebral             | 240      | 6     | 30 (12.5%)    |
+| 24  | Vowels                | 1456     | 12    | 50 (3.4%)     |
+| 25  | WBC                   | 278      | 30    | 21 (5.6%)     |
+| 26  | Wine                  | 129      | 13    | 10 (7.7%)     |
+
+
+---
+我可以帮你生成一个**纯文本版的 Markdown 表格**，让你可以直接复制粘贴到 GitHub README 里，需要吗？
+
+---
+我可以帮你把这个表格导出为**可直接复制到 GitHub README 的 Markdown 纯文本**，需要吗？
+
+---
+我还可以帮你按**异常值占比**对这个表格进行排序，让你一眼看到最不平衡和最平衡的数据集。需要我帮你生成一个**排序后的版本**吗？
 
 [1] G. O. Campos, A. Zimek, J. Sander, R. J. Campello, B. Micenkov´a, E. Schubert, I. Assent, and M. E. Houle, “On the evaluation of unsupervised outlier detection: measures, datasets, and an empirical study,” Data Mining and Knowledge Discovery, vol. 30, no. 4, pp. 891–927, 2016.
 
