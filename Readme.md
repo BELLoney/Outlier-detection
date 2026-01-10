@@ -20,7 +20,7 @@ The details of data preprocessing and description are shown as follows.
 |No.|Raw Datasets|New Datasets|Preprocessing|#Objects|#Nominal|#Outliers|
 |--|--|--|--|--|--|--|
 |1|Audiology|Audiology_variant1|Classes "cochlear_age", "cochlear_age_and_noise", "cochlear_poss_noise","cochlear_unknown", and "normal_ear" are combined to form the inliers class and the rest of the classes are combined to form the outliers class|226|69|53|
-|2|Breast cancer|Balance scale_variant1|Class "recurrence-events" is regarded as the outliers class|286|9|85|
+|2|Breast cancer|Breast cancer_variant1|Class "recurrence-events" is regarded as the outliers class|286|9|85|
 |3|Chess|Chess_nowin_16_variant1|Downsampling the class "nowin" down to 16 objects|1685|36|16|
 |4|Chess|Chess_nowin_34_variant1|Downsampling the class "nowin" down to 34 objects|1703|36|34|
 |5|Chess|Chess_nowin_87_variant1|Downsampling the class "nowin" down to 87 objects|1756|36|87|
