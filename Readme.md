@@ -125,16 +125,7 @@ The details of data preprocessing and description are shown as follows.
 | 25  | WBC                   | 378      | 30    | 21 (5.6%)     |
 | 26  | Wine                  | 129      | 13    | 10 (7.7%)     |
 
-
----
-我可以帮你生成一个**纯文本版的 Markdown 表格**，让你可以直接复制粘贴到 GitHub README 里，需要吗？
-
----
-我可以帮你把这个表格导出为**可直接复制到 GitHub README 的 Markdown 纯文本**，需要吗？
-
----
-我还可以帮你按**异常值占比**对这个表格进行排序，让你一眼看到最不平衡和最平衡的数据集。需要我帮你生成一个**排序后的版本**吗？
-
+# References
 [1] G. O. Campos, A. Zimek, J. Sander, R. J. Campello, B. Micenkov´a, E. Schubert, I. Assent, and M. E. Houle, “On the evaluation of unsupervised outlier detection: measures, datasets, and an empirical study,” Data Mining and Knowledge Discovery, vol. 30, no. 4, pp. 891–927, 2016.
 
 [2] Z. Y. He, X. F. Xu, and S. C. Deng, “Discovering cluster-based local outliers,” Pattern Recognition Letters, vol. 24, no. 9–10, pp. 1641–1650, 2003.
@@ -148,7 +139,8 @@ The details of data preprocessing and description are shown as follows.
 [6]	Zhong Yuan, Hongmei Chen, Tianrui Li, Binbin Sang, Shu Wang. Outlier detection based on fuzzy rough granules in mixed attribute data[J]. IEEE Transactions on Cybernetics, 2022, 52(8): 8399-8412.
 
 [7]	Zhong Yuan, Hongmei Chen, Tianrui Li, Xianyong Zhang, Binbin Sang. Multigranulation relative entropy based mixed attribute outlier detection in neighborhood systems[J]. IEEE Transactions on Systems, Man and Cybernetics: Systems, 2022, 52(8): 5175-5187.
-	
+
+# Others	
 About more datasets, such as Outlier Detection DataSets (ODDS). 
 
 [1] http://odds.cs.stonybrook.edu/
