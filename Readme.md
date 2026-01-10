@@ -1,7 +1,9 @@
 # Outlier-detection
 Data set; Program files
 
-Remark: Relevant algorithm code will be uploaded one after another, welcome to download, discuss and exchange!
+**Remark**: Relevant algorithm code will be uploaded one after another, welcome to download, discuss and exchange!
+
+# Preprocessing
 
 In order to evaluate the effectiveness of an outlier detection algorithm, some data sets (including numeric, categorical, and mixed attributes) are selected from the UCI machine learning repository for experiments.
 
