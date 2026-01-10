@@ -102,4 +102,5 @@ The details of data preprocessing and description are shown as Tables 1-3.
 About more datasets, such as Outlier Detection DataSets (ODDS). 
 
 [1] http://odds.cs.stonybrook.edu/
+
 **Note**: As the above link is invalid, please refer to the ODDS folder, where -ori.mat represents the original dataset, and the rest represent the results of minimum-maximum normalization.
