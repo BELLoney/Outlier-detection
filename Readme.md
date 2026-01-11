@@ -1,4 +1,4 @@
-# Outlier-detection
+# Outlier-detection datasets
 Data set; Program files
 
 **Remark**: Relevant algorithm code will be uploaded one after another, welcome to download, discuss and exchange!
