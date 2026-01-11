@@ -143,8 +143,9 @@ The details of data preprocessing and description are shown as follows.
 [7]	Zhong Yuan, Hongmei Chen, Tianrui Li, Xianyong Zhang, Binbin Sang. Multigranulation relative entropy based mixed attribute outlier detection in neighborhood systems[J]. IEEE Transactions on Systems, Man and Cybernetics: Systems, 2022, 52(8): 5175-5187.
 
 # Others	
-About more datasets, such as Outlier Detection DataSets (ODDS). 
+About more datasets, such as Outlier Detection DataSets (ODDS) and ADBench. 
 
 [1] http://odds.cs.stonybrook.edu/
+[2] EUOD: On the Evaluation of Unsupervised Outlier Detection: Measures, Datasets, and an Empirical Study by G. O. Campos, A. Zimek, J. Sander, R. J. G. B. Campello, B. Micenková, E. Schubert, I. Assent and M. E. Houle Data Mining and Knowledge Discovery 30(4): 891-927, 2016, DOI: 10.1007/s10618-015-0444-8.
 
-**Note**: As the above link is invalid, please refer to the ODDS folder, where -ori.mat represents the original dataset, and the rest represent the results of minimum-maximum normalization.
+**Note**: Since the two links above are invalid, please refer to the ODDS and EUOD folders, where -ori.mat represents the original dataset, and the rest represent the results of minimum-maximum normalization.
