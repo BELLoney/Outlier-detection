@@ -13,7 +13,7 @@ The method randomly downsamples a particular class to produce outliers while pre
 
 **The last column of the data matrix is the true label, where 1 denotes outliers and 0 denotes inliers.**
 
-**-ori.mat represents the original dataset and the rest represent the results of minimum-maximum normalization.**
+**-ori.csv represents the original dataset and the rest represent the results of minimum-maximum normalization.**
 
 The details of data preprocessing and description are shown as follows.
 
