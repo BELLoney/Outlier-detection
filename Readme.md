@@ -144,9 +144,10 @@ The details of data preprocessing and description are shown as follows.
 | 18 | Heart disease | Downsampling the class "2" down to 16 objects |
 | 19 | Hepatitis | Downsampling the class "2" down to 9 objects |
 | 20 | Horse | Downsampling the class "1" down to 12 objects |
-| 21 | Sick | Downsampling the class "sick" down to 35 objects |
-| 22 | Sick | Downsampling the class "sick" down to 72 objects |
-| 23 | Thyroid_disease | Classes "SVHD" and "WEST" are combined to form the outliers class and the rest of the classes are combined to form the inliers class |
+| 21  | Seismic|  | Class "hazardous state" is considered as outliers (170 (6.6%))|
+| 22 | Sick | Downsampling the class "sick" down to 35 objects |
+| 23 | Sick | Downsampling the class "sick" down to 72 objects |
+| 24 | Thyroid_disease | Classes "SVHD" and "WEST" are combined to form the outliers class and the rest of the classes are combined to form the inliers class |
 
 ## 4.2. Dataset statistics
 | No. | New Datasets | #Objects | #Numerical | #Categorical | #Outliers |
@@ -171,9 +172,10 @@ The details of data preprocessing and description are shown as follows.
 | 18 | Heart_2_16_variant1 | 166 | 6 | 7 | 16 |
 | 19 | Hepatitis_2_9_variant1 | 94 | 6 | 13 | 9 |
 | 20 | Horse_1_12_variant1 | 256 | 8 | 19 | 12 |
-| 21 | Sick_sick_35_variant1 | 3576 | 7 | 22 | 35 |
-| 22 | Sick_sick_72_variant1 | 3613 | 7 | 22 | 72 |
-| 23 | Thyroid_disease_variant1 | 9172 | 7 | 21 | 74 |
+| 21  | Seismic_variant1    |  2584  | 14  |  4  |  170  |
+| 22 | Sick_sick_35_variant1 | 3576 | 7 | 22 | 35 |
+| 23 | Sick_sick_72_variant1 | 3613 | 7 | 22 | 72 |
+| 24 | Thyroid_disease_variant1 | 9172 | 7 | 21 | 74 |
 
 # 5.ODDS
 				
