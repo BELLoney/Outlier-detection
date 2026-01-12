@@ -116,16 +116,17 @@ The details of data preprocessing and description are shown as follows.
 | 14  | Musk                  | 3062     | 166   | 97 (3.2%)     |
 | 15  | Optdigits             | 5216     | 64    | 150 (3%)      |
 | 16  | Pendigits             | 6870     | 16    | 156 (2.27%)   |
-| 17  | Satellite             | 6435     | 36    | 2036 (32%)    |
-| 18  | Satimage-2            | 5803     | 36    | 71 (1.2%)     |
-| 19  | Shuttle               | 49097    | 9     | 3511 (7%)     |
-| 20  | Smtp (KDDCUP99)       | 95156    | 3     | 30 (0.03%)    |
-| 21  | Speech                | 3686     | 400   | 61 (1.65%)    |
-| 22  | Thyroid               | 3772     | 6     | 93 (2.5%)     |
-| 23  | Vertebral             | 240      | 6     | 30 (12.5%)    |
-| 24  | Vowels                | 1456     | 12    | 50 (3.4%)     |
-| 25  | WBC                   | 378      | 30    | 21 (5.6%)     |
-| 26  | Wine                  | 129      | 13    | 10 (7.7%)     |
+| 17  | Pima                  | 768      | 8     | 268 (35%)     |
+| 18  | Satellite             | 6435     | 36    | 2036 (32%)    |
+| 19  | Satimage-2            | 5803     | 36    | 71 (1.2%)     |
+| 20  | Shuttle               | 49097    | 9     | 3511 (7%)     |
+| 21  | Smtp (KDDCUP99)       | 95156    | 3     | 30 (0.03%)    |
+| 22  | Speech                | 3686     | 400   | 61 (1.65%)    |
+| 23  | Thyroid               | 3772     | 6     | 93 (2.5%)     |
+| 24  | Vertebral             | 240      | 6     | 30 (12.5%)    |
+| 25  | Vowels                | 1456     | 12    | 50 (3.4%)     |
+| 26  | WBC                   | 378      | 30    | 21 (5.6%)     |
+| 27  | Wine                  | 129      | 13    | 10 (7.7%)     |
 
 # References
 [1] G. O. Campos, A. Zimek, J. Sander, R. J. Campello, B. Micenkov´a, E. Schubert, I. Assent, and M. E. Houle, “On the evaluation of unsupervised outlier detection: measures, datasets, and an empirical study,” Data Mining and Knowledge Discovery, vol. 30, no. 4, pp. 891–927, 2016.
