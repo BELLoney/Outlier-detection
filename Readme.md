@@ -121,31 +121,59 @@ The details of data preprocessing and description are shown as follows.
 
 # Mixed datasets
 
-|No.|Raw Datasets|New Datasets|Preprocessing|#Objects|#Numerical|#Categorical|#Outliers|
-|--|--|--|--|--|--|--|--|
-|1|Abalone|Abalone_variant1|Classes "1-3", "20-27" and 29 are combined to form the outliers class and the rest of the classes are combined to form the inliers class|4177|8|1|79|
-|2|Adult|Adult_morethan50K_343_variant1|Downsampling the class ">50k" down to 343 objects|34357|6|8|343|
-|3|Adult|Adult_morethan50K_694_variant1|Downsampling the class ">50k" down to 694 objects|34708|6|8|694|
-|4|Adult|Adult_morethan50K_1790_variant1|Downsampling the class ">50k" down to 1790 objects|35804|6|8|1790|
-|5|Adult|Adult_morethan50K_2957_variant1|Downsampling the class ">50k" down to 2957 objects|36971|6|8|2957|
-|6|Adult|Adult_morethan50K_3779_variant1|Downsampling the class ">50k" down to 3779 objects|37793|6|8|3779|
-|7|Adult|Adult_morethan50K_4638_variant1|Downsampling the class ">50k" down to 4638 objects|38652|6|8|4638|
-|8|Autos|Autos_variant1|Classes "-2" and "-1" are combined to form the outliers class and the rest of the classes are combined to form the inliers class|205|15|10|25|
-|9|Annealing|Annealing_variant1|Classes "1" and "U" are combined to form the outliers class and the rest of the classes are combined to form the inliers class|798|10|28|42|
-|10|Arrhythmia|Arrhythmia_variant1|Classes 3, 4, 5, 7, 8, 9, 14, 15 are combined to form the outliers class and the rest of the classes are combined to form the inliers class|452|206|73|66|
-|11|Bands|Bands_band_6_variant1|Downsampling the class "band" down to 6 objects|318|20|19|6|
-|12|Bands|Bands_band_16_variant1|Downsampling the class "band" down to 16 objects|328|20|19|16|
-|13|Bands|Bands_band_27_variant1|Downsampling the class "band" down to 27 objects|339|20|19|27|
-|14|Bands|Bands_band_34_variant1|Downsampling the class "band" down to 34 objects|346|20|19|34|
-|15|Bands|Bands_band_42_variant1|Downsampling the class "band" down to 42 objects|354|20|19|42|
-|16|Credit approval|CreditA_plus_42_variant1|Downsampling the class "+" down to 42 objects|425|6|9|42|
-|17|German|German_1_14_variant1|Downsampling the class "1" down to 14 objects|714|7|13|14|
-|18|Heart disease|Heart_2_16_variant1|Downsampling the class "2" down to 16 objects|166|6|7|16|
-|19|Hepatitis|Hepatitis_2_9_variant1|Downsampling the class "2" down to 9 objects|94|6|13|9|
-|20|Horse|Horse_1_12_variant1|Downsampling the class "1" down to 12 objects|256|8|19|12|
-|21|Sick|Sick_sick_35_variant1|Downsampling the class "sick" down to 35 objects|3576|7|22|35|
-|22|Sick|Sick_sick_72_variant1|Downsampling the class "sick" down to 72 objects|3613|7|22|72|
-|23|Thyroid_disease|Thyroid_disease_variant1|Classes "SVHD" and "WEST" are combined to form the outliers class and the rest of the classes are combined to form the inliers class|9172|7|21|74|
+## 1. Preprocessing details
+| No. | Raw Datasets | Preprocessing |
+|-----|--------------|---------------|
+| 1 | Abalone | Classes "1-3", "20-27" and 29 are combined to form the outliers class and the rest of the classes are combined to form the inliers class |
+| 2 | Adult | Downsampling the class ">50k" down to 343 objects |
+| 3 | Adult | Downsampling the class ">50k" down to 694 objects |
+| 4 | Adult | Downsampling the class ">50k" down to 1790 objects |
+| 5 | Adult | Downsampling the class ">50k" down to 2957 objects |
+| 6 | Adult | Downsampling the class ">50k" down to 3779 objects |
+| 7 | Adult | Downsampling the class ">50k" down to 4638 objects |
+| 8 | Autos | Classes "-2" and "-1" are combined to form the outliers class and the rest of the classes are combined to form the inliers class |
+| 9 | Annealing | Classes "1" and "U" are combined to form the outliers class and the rest of the classes are combined to form the inliers class |
+| 10 | Arrhythmia | Classes 3, 4, 5, 7, 8, 9, 14, 15 are combined to form the outliers class and the rest of the classes are combined to form the inliers class |
+| 11 | Bands | Downsampling the class "band" down to 6 objects |
+| 12 | Bands | Downsampling the class "band" down to 16 objects |
+| 13 | Bands | Downsampling the class "band" down to 27 objects |
+| 14 | Bands | Downsampling the class "band" down to 34 objects |
+| 15 | Bands | Downsampling the class "band" down to 42 objects |
+| 16 | Credit approval | Downsampling the class "+" down to 42 objects |
+| 17 | German | Downsampling the class "1" down to 14 objects |
+| 18 | Heart disease | Downsampling the class "2" down to 16 objects |
+| 19 | Hepatitis | Downsampling the class "2" down to 9 objects |
+| 20 | Horse | Downsampling the class "1" down to 12 objects |
+| 21 | Sick | Downsampling the class "sick" down to 35 objects |
+| 22 | Sick | Downsampling the class "sick" down to 72 objects |
+| 23 | Thyroid_disease | Classes "SVHD" and "WEST" are combined to form the outliers class and the rest of the classes are combined to form the inliers class |
+
+## 2. Dataset Statistics
+| No. | New Datasets | #Objects | #Numerical | #Categorical | #Outliers |
+|-----|--------------|----------|------------|--------------|-----------|
+| 1 | Abalone_variant1 | 4177 | 8 | 1 | 79 |
+| 2 | Adult_morethan50K_343_variant1 | 34357 | 6 | 8 | 343 |
+| 3 | Adult_morethan50K_694_variant1 | 34708 | 6 | 8 | 694 |
+| 4 | Adult_morethan50K_1790_variant1 | 35804 | 6 | 8 | 1790 |
+| 5 | Adult_morethan50K_2957_variant1 | 36971 | 6 | 8 | 2957 |
+| 6 | Adult_morethan50K_3779_variant1 | 37793 | 6 | 8 | 3779 |
+| 7 | Adult_morethan50K_4638_variant1 | 38652 | 6 | 8 | 4638 |
+| 8 | Autos_variant1 | 205 | 15 | 10 | 25 |
+| 9 | Annealing_variant1 | 798 | 10 | 28 | 42 |
+| 10 | Arrhythmia_variant1 | 452 | 206 | 73 | 66 |
+| 11 | Bands_band_6_variant1 | 318 | 20 | 19 | 6 |
+| 12 | Bands_band_16_variant1 | 328 | 20 | 19 | 16 |
+| 13 | Bands_band_27_variant1 | 339 | 20 | 19 | 27 |
+| 14 | Bands_band_34_variant1 | 346 | 20 | 19 | 34 |
+| 15 | Bands_band_42_variant1 | 354 | 20 | 19 | 42 |
+| 16 | CreditA_plus_42_variant1 | 425 | 6 | 9 | 42 |
+| 17 | German_1_14_variant1 | 714 | 7 | 13 | 14 |
+| 18 | Heart_2_16_variant1 | 166 | 6 | 7 | 16 |
+| 19 | Hepatitis_2_9_variant1 | 94 | 6 | 13 | 9 |
+| 20 | Horse_1_12_variant1 | 256 | 8 | 19 | 12 |
+| 21 | Sick_sick_35_variant1 | 3576 | 7 | 22 | 35 |
+| 22 | Sick_sick_72_variant1 | 3613 | 7 | 22 | 72 |
+| 23 | Thyroid_disease_variant1 | 9172 | 7 | 21 | 74 |
 
 # ODDS
 				
