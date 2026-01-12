@@ -1,7 +1,7 @@
 # Outlier detection datasets
 Data set; Program files
 
-# Overview
+# 1. Overview
 
 In order to evaluate the effectiveness of an outlier detection algorithm, some data sets (including numeric, categorical, and mixed attributes) are selected from the UCI machine learning repository for experiments.
 
@@ -15,9 +15,9 @@ The method randomly downsamples a particular class to produce outliers while pre
 
 The details of data preprocessing and description are shown as follows.
 
-# Nominal datasets
+# 2. Nominal datasets
 
-## 1.Preprocessing details
+## 2.1 Preprocessing details
 
 | No. | Raw Datasets | Preprocessing |
 |-----|--------------|---------------|
@@ -49,7 +49,7 @@ The details of data preprocessing and description are shown as follows.
 | 26 | Vote | Downsampling the class "republican" down to 29 objects |
 | 27 | Zoo | Classes "reptile", "amphibian" and "insect" are combined to form the outliers class and the rest of the classes are combined to form the inliers class |
 
-## 2. Dataset statistics
+## 2.2 Dataset statistics
 
 | No. | New Datasets | #Objects | #Nominal | #Outliers |
 |-----|--------------|----------|----------|-----------|
@@ -81,9 +81,9 @@ The details of data preprocessing and description are shown as follows.
 | 26 | Vote_republican_29_variant1 | 296 | 16 | 29 |
 | 27 | Zoo_variant1 | 101 | 16 | 17 |
 
-# Numerical datasets
+# 3. Numerical datasets
 
-## 1. Preprocessing details
+## 3.1 Preprocessing details
 | No. | Raw Datasets | Preprocessing |
 |-----|--------------|---------------|
 | 1 | ALOI | The data is divided into 1508 outliers (3.04%) and 48492 inliers (96.98%) |
@@ -101,7 +101,7 @@ The details of data preprocessing and description are shown as follows.
 | 13 | Spambase | Downsampling the class ''spam" down to 56 objects |
 | 14 | Wisconsin prognostic breast cancer | Class ''R" (minority) is considered as outliers |
 
-## 2. Dataset statistics
+## 3.2 Dataset statistics
 | No. | New Datasets | #Objects | #Numerical | #Outliers |
 |-----|--------------|----------|------------|-----------|
 | 1 | ALOI_variant1 | 50000 | 27 | 1508 |
@@ -119,9 +119,9 @@ The details of data preprocessing and description are shown as follows.
 | 13 | Spambase_spam_56_variant1 | 2844 | 58 | 56 |
 | 14 | Wpbc_variant1 | 198 | 33 | 47 |
 
-# Mixed datasets
+# 4. Mixed datasets
 
-## 1. Preprocessing details
+## 4.1. Preprocessing details
 | No. | Raw Datasets | Preprocessing |
 |-----|--------------|---------------|
 | 1 | Abalone | Classes "1-3", "20-27" and 29 are combined to form the outliers class and the rest of the classes are combined to form the inliers class |
@@ -148,7 +148,7 @@ The details of data preprocessing and description are shown as follows.
 | 22 | Sick | Downsampling the class "sick" down to 72 objects |
 | 23 | Thyroid_disease | Classes "SVHD" and "WEST" are combined to form the outliers class and the rest of the classes are combined to form the inliers class |
 
-## 2. Dataset statistics
+## 4.2. Dataset statistics
 | No. | New Datasets | #Objects | #Numerical | #Categorical | #Outliers |
 |-----|--------------|----------|------------|--------------|-----------|
 | 1 | Abalone_variant1 | 4177 | 8 | 1 | 79 |
@@ -175,7 +175,7 @@ The details of data preprocessing and description are shown as follows.
 | 22 | Sick_sick_72_variant1 | 3613 | 7 | 22 | 72 |
 | 23 | Thyroid_disease_variant1 | 9172 | 7 | 21 | 74 |
 
-# ODDS
+# 5.ODDS
 				
 | No. | Datasets               | #Objects  | #Numerical | #outliers (%) |
 |-----|-----------------------|----------|-------|---------------|
