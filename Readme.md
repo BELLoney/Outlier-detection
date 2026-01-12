@@ -144,7 +144,7 @@ The details of data preprocessing and description are shown as follows.
 | 18 | Heart disease | Downsampling the class "2" down to 16 objects |
 | 19 | Hepatitis | Downsampling the class "2" down to 9 objects |
 | 20 | Horse | Downsampling the class "1" down to 12 objects |
-| 21 |Seismic| Class "hazardous state" is considered as outliers (170 (6.6%))|
+| 21 |Seismic| Class "hazardous state" is considered as 170 (6.6%) outliers|
 | 22 | Sick | Downsampling the class "sick" down to 35 objects |
 | 23 | Sick | Downsampling the class "sick" down to 72 objects |
 | 24 | Thyroid_disease | Classes "SVHD" and "WEST" are combined to form the outliers class and the rest of the classes are combined to form the inliers class |
