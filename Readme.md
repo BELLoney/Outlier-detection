@@ -148,7 +148,7 @@ The details of data preprocessing and description are shown as follows.
 | 22 | Sick | Downsampling the class "sick" down to 72 objects |
 | 23 | Thyroid_disease | Classes "SVHD" and "WEST" are combined to form the outliers class and the rest of the classes are combined to form the inliers class |
 
-## 2. Dataset Statistics
+## 2. Dataset statistics
 | No. | New Datasets | #Objects | #Numerical | #Categorical | #Outliers |
 |-----|--------------|----------|------------|--------------|-----------|
 | 1 | Abalone_variant1 | 4177 | 8 | 1 | 79 |
@@ -177,7 +177,7 @@ The details of data preprocessing and description are shown as follows.
 
 # ODDS
 				
-| No. | Dataset               | #Objects  | #Numerical | #outliers (%) |
+| No. | Datasets               | #Objects  | #Numerical | #outliers (%) |
 |-----|-----------------------|----------|-------|---------------|
 | 1   | Annthyroid            | 7200     | 6     | 534 (7.42%)   |
 | 2   | Arrhythmia            | 452      | 274   | 66 (15%)      |
