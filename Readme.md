@@ -17,7 +17,7 @@ The details of data preprocessing and description are shown as follows.
 
 # Nominal datasets
 
-## Preprocessing
+## 1.Preprocessing details
 
 | No. | Raw Datasets | Preprocessing |
 |-----|--------------|---------------|
@@ -49,7 +49,7 @@ The details of data preprocessing and description are shown as follows.
 | 26 | Vote | Downsampling the class "republican" down to 29 objects |
 | 27 | Zoo | Classes "reptile", "amphibian" and "insect" are combined to form the outliers class and the rest of the classes are combined to form the inliers class |
 
-## Final results
+## 2. Dataset statistics
 
 | No. | New Datasets | #Objects | #Nominal | #Outliers |
 |-----|--------------|----------|----------|-----------|
@@ -83,22 +83,41 @@ The details of data preprocessing and description are shown as follows.
 
 # Numerical datasets
 
-|No.|Raw Datasets|New Datasets|Preprocessing|#Objects|#Numerical|#Outliers|
-|--|--|--|--|--|--|--|
-|1|ALOI|ALOI_variant1|The data is divided into 1508 outliers (3.04%) and 48492 inliers (96.98%)|50000|27|1508|
-|2|Cardiotocography|Cardiotocography_2and3_3_variant1|Downsampling the classes "2" and "3" down to 33 objects|1688|21|33|
-|3|Diabetes|Diabetes_tested_positive_26_variant1|Downsampling the class ''tested_positive" down to 26 objects|526|8|26|
-|4|Ionosphere|Ionosphere_b_24_variant1|Downsampling the class ''b" down to 24 objects|249|34|24|
-|5|Iris|Iris_Irisvirginica_11_variant1|Downsampling the class ''Iris-virginica" down to 11 objects|111|4|11|
-|6|Pima|Pima_TRUE_55_variant1|Downsampling the class ''TRUE" down to 55 objects|555|9|55|
-|7|Sonar|Sonar_M_10_variant1|Downsampling the class ''M" down to 10 objects|107|60|10|
-|8|Wisconsin diagnostic breast cancer|Wdbc_M_39_variant1|Downsampling the class "M" down to 39 objects|396|31|39|
-|9|Page blocks|Pageblocks_258_variant1|Downsampling the class ''Non-text" down to 258 objects|5171|10|258|
-|10|Wisconsin breast cancer|Wisconsin_malignant_39_variant1|202 ''malignant" (outlier) and 14 ``benign" objects were removed [2]|483|9|39|
-|11|Yeast|Yeast_ERL_5_variant1|Classes ''ERL" (outlier), ''CYT", ''NUC", and ''MIT" are selected [3]|1141|8|5|
-|12|Waveform|Waveform_0_100_variant1|Downsampling the class ''0" down to 100 objects|3443|21|100|
-|13|Spambase|Spambase_spam_56_variant1|Downsampling the class ''spam" down to 56 objects|2844|58|56|
-|14|Wisconsin prognostic breast cancer|Wpbc_variant1|Class ''R" (minority) is considered as outliers|198|33|47|
+## 1. Preprocessing details
+| No. | Raw Datasets | Preprocessing |
+|-----|--------------|---------------|
+| 1 | ALOI | The data is divided into 1508 outliers (3.04%) and 48492 inliers (96.98%) |
+| 2 | Cardiotocography | Downsampling the classes "2" and "3" down to 33 objects |
+| 3 | Diabetes | Downsampling the class ''tested_positive" down to 26 objects |
+| 4 | Ionosphere | Downsampling the class ''b" down to 24 objects |
+| 5 | Iris | Downsampling the class ''Iris-virginica" down to 11 objects |
+| 6 | Pima | Downsampling the class ''TRUE" down to 55 objects |
+| 7 | Sonar | Downsampling the class ''M" down to 10 objects |
+| 8 | Wisconsin diagnostic breast cancer | Downsampling the class "M" down to 39 objects |
+| 9 | Page blocks | Downsampling the class ''Non-text" down to 258 objects |
+| 10 | Wisconsin breast cancer | 202 ''malignant" (outlier) and 14 ``benign" objects were removed [2] |
+| 11 | Yeast | Classes ''ERL" (outlier), ''CYT", ''NUC", and ''MIT" are selected [3] |
+| 12 | Waveform | Downsampling the class ''0" down to 100 objects |
+| 13 | Spambase | Downsampling the class ''spam" down to 56 objects |
+| 14 | Wisconsin prognostic breast cancer | Class ''R" (minority) is considered as outliers |
+
+## 2. Dataset statistics
+| No. | New Datasets | #Objects | #Numerical | #Outliers |
+|-----|--------------|----------|------------|-----------|
+| 1 | ALOI_variant1 | 50000 | 27 | 1508 |
+| 2 | Cardiotocography_2and3_3_variant1 | 1688 | 21 | 33 |
+| 3 | Diabetes_tested_positive_26_variant1 | 526 | 8 | 26 |
+| 4 | Ionosphere_b_24_variant1 | 249 | 34 | 24 |
+| 5 | Iris_Irisvirginica_11_variant1 | 111 | 4 | 11 |
+| 6 | Pima_TRUE_55_variant1 | 555 | 9 | 55 |
+| 7 | Sonar_M_10_variant1 | 107 | 60 | 10 |
+| 8 | Wdbc_M_39_variant1 | 396 | 31 | 39 |
+| 9 | Pageblocks_258_variant1 | 5171 | 10 | 258 |
+| 10 | Wisconsin_malignant_39_variant1 | 483 | 9 | 39 |
+| 11 | Yeast_ERL_5_variant1 | 1141 | 8 | 5 |
+| 12 | Waveform_0_100_variant1 | 3443 | 21 | 100 |
+| 13 | Spambase_spam_56_variant1 | 2844 | 58 | 56 |
+| 14 | Wpbc_variant1 | 198 | 33 | 47 |
 
 # Mixed datasets
 
