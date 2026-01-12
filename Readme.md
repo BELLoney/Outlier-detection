@@ -19,35 +19,67 @@ The details of data preprocessing and description are shown as follows.
 
 # Nominal datasets
 
-|No.|Raw Datasets|New Datasets|Preprocessing|#Objects|#Nominal|#Outliers|
-|--|--|--|--|--|--|--|
-|1|Audiology|Audiology_variant1|Classes "cochlear_age", "cochlear_age_and_noise", "cochlear_poss_noise","cochlear_unknown", and "normal_ear" are combined to form the inliers class and the rest of the classes are combined to form the outliers class|226|69|53|
-|2|Breast cancer|Breast cancer_variant1|Class "recurrence-events" is regarded as the outliers class|286|9|85|
-|3|Chess|Chess_nowin_16_variant1|Downsampling the class "nowin" down to 16 objects|1685|36|16|
-|4|Chess|Chess_nowin_34_variant1|Downsampling the class "nowin" down to 34 objects|1703|36|34|
-|5|Chess|Chess_nowin_87_variant1|Downsampling the class "nowin" down to 87 objects|1756|36|87|
-|6|Chess|Chess_nowin_145_variant1|Downsampling the class "nowin" down to 145 objects|1814|36|145|
-|7|Chess|Chess_nowin_185_variant1|Downsampling the class "nowin" down to 185 objects|1854|36|185|
-|8|Chess|Chess_nowin_227_variant1|Downsampling the class "nowin" down to 227 objects|1896|36|227|
-|9|Connect_4|Connect_4_draw_617_variant1|Class "draw" is regarded as the outliers class and downsampled to 617 objects|61725|42|617|
-|10|Connect_4|Connect_4_draw_1247_variant1|Class "draw" is regarded as the outliers class and downsampled to 1247 objects|62355|42|1247|
-|11|Lymphography|Lymphography|Classes ''1'' and ''4'' are considered as outliers [2]|148|8|6|
-|12|Monks|Monks_0_4_variant1|Downsampling the class "0" down to 4 objects|232|6|4|
-|13|Monks|Monks_0_12_variant1|Downsampling the class "0" down to 12 objects|240|6|12|
-|14|Monks|Monks_0_25_variant1|Downsampling the class "0" down to 25 objects|253|6|25|
-|15|Mushroom|Mushroom_p_85_variant1|Downsampling the class ''+" down to 85 objects|4293|22|85|
-|16|Mushroom|Mushroom_p_221_variant1|Downsampling the class ''+" down to 221 objects|4429|22|221|
-|17|Mushroom|Mushroom_p_365_variant1|Downsampling the class ''+" down to 365 objects|4573|22|365|
-|18|Mushroom|Mushroom_p_467_variant1|Downsampling the class ''+" down to 467 objects|4675|22|467|
-|19|Mushroom|Mushroom_p_573_variant1|Downsampling the class ''+" down to 573 objects|4781|22|573|
-|20|Nursery|Nursery_variant1|Classes "recommend" and "very_recom" are combined to form the outliers class and the rest of the classes are combined to form the inliers class|12960|8|330|
-|21|Tic-tac-toe|Tic-tac-toe_negative_12_variant1|Downsampling the class "negative" down to 12 objects|638|9|12|
-|22|Tic-tac-toe|Tic-tac-toe_negative_26_variant1|Downsampling the class "negative" down to 26 objects|652|9|26|
-|23|Tic-tac-toe|Tic-tac-toe_negative_32_variant1|Downsampling the class "negative" down to 32 objects|658|9|32|
-|24|Tic-tac-toe|Tic-tac-toe_negative_54_variant1|Downsampling the class "negative" down to 54 objects|680|9|54|
-|25|Tic-tac-toe|Tic-tac-toe_negative_69_variant1|Downsampling the class "negative" down to 69 objects|695|9|69|
-|26|Vote|Vote_republican_29_variant1|Downsampling the class "republican" down to 29 objects|296|16|29|
-|27|Zoo|Zoo_variant1|Classes "reptile", "amphibian" and "insect" are combined to form the outliers class and the rest of the classes are combined to form the inliers class|101|16|17|
+## Preprocessing
+| No. | Preprocessing |
+|-----|--------------------|
+| 1   | Classes "cochlear_age", "cochlear_age_and_noise", "cochlear_poss_noise","cochlear_unknown", and "normal_ear" are combined to form the inliers class and the rest of the classes are combined to form the outliers class |
+| 2   | Class "recurrence-events" is regarded as the outliers class |
+| 3   | Downsampling the class "nowin" down to 16 objects |
+| 4   | Downsampling the class "nowin" down to 34 objects |
+| 5   | Downsampling the class "nowin" down to 87 objects |
+| 6   | Downsampling the class "nowin" down to 145 objects |
+| 7   | Downsampling the class "nowin" down to 185 objects |
+| 8   | Downsampling the class "nowin" down to 227 objects |
+| 9   | Class "draw" is regarded as the outliers class and downsampled to 617 objects |
+| 10  | Class "draw" is regarded as the outliers class and downsampled to 1247 objects |
+| 11  | Classes ''1'' and ''4'' are considered as outliers [2] |
+| 12  | Downsampling the class "0" down to 4 objects |
+| 13  | Downsampling the class "0" down to 12 objects |
+| 14  | Downsampling the class "0" down to 25 objects |
+| 15  | Downsampling the class ''+" down to 85 objects |
+| 16  | Downsampling the class ''+" down to 221 objects |
+| 17  | Downsampling the class ''+" down to 365 objects |
+| 18  | Downsampling the class ''+" down to 467 objects |
+| 19  | Downsampling the class ''+" down to 573 objects |
+| 20  | Classes "recommend" and "very_recom" are combined to form the outliers class and the rest of the classes are combined to form the inliers class |
+| 21  | Downsampling the class "negative" down to 12 objects |
+| 22  | Downsampling the class "negative" down to 26 objects |
+| 23  | Downsampling the class "negative" down to 32 objects |
+| 24  | Downsampling the class "negative" down to 54 objects |
+| 25  | Downsampling the class "negative" down to 69 objects |
+| 26  | Downsampling the class "republican" down to 29 objects |
+| 27  | Classes "reptile", "amphibian" and "insect" are combined to form the outliers class and the rest of the classes are combined to form the inliers class |
+
+## Final results
+| No. | Raw Datasets   | New Datasets               | #Objects | #Nominal | #Outliers |
+|-----|----------------|----------------------------|----------|----------|-----------|
+| 1   | Audiology      | Audiology_variant1         | 226      | 69       | 53        |
+| 2   | Breast cancer  | Breast cancer_variant1     | 286      | 9        | 85        |
+| 3   | Chess          | Chess_nowin_16_variant1    | 1685     | 36       | 16        |
+| 4   | Chess          | Chess_nowin_34_variant1    | 1703     | 36       | 34        |
+| 5   | Chess          | Chess_nowin_87_variant1    | 1756     | 36       | 87        |
+| 6   | Chess          | Chess_nowin_145_variant1   | 1814     | 36       | 145       |
+| 7   | Chess          | Chess_nowin_185_variant1   | 1854     | 36       | 185       |
+| 8   | Chess          | Chess_nowin_227_variant1   | 1896     | 36       | 227       |
+| 9   | Connect_4      | Connect_4_draw_617_variant1| 61725    | 42       | 617       |
+| 10  | Connect_4      | Connect_4_draw_1247_variant1| 62355   | 42       | 1247      |
+| 11  | Lymphography   | Lymphography               | 148      | 8        | 6         |
+| 12  | Monks          | Monks_0_4_variant1         | 232      | 6        | 4         |
+| 13  | Monks          | Monks_0_12_variant1        | 240      | 6        | 12        |
+| 14  | Monks          | Monks_0_25_variant1        | 253      | 6        | 25        |
+| 15  | Mushroom       | Mushroom_p_85_variant1     | 4293     | 22       | 85        |
+| 16  | Mushroom       | Mushroom_p_221_variant1    | 4429     | 22       | 221       |
+| 17  | Mushroom       | Mushroom_p_365_variant1    | 4573     | 22       | 365       |
+| 18  | Mushroom       | Mushroom_p_467_variant1    | 4675     | 22       | 467       |
+| 19  | Mushroom       | Mushroom_p_573_variant1    | 4781     | 22       | 573       |
+| 20  | Nursery        | Nursery_variant1           | 12960    | 8        | 330       |
+| 21  | Tic-tac-toe    | Tic-tac-toe_negative_12_variant1| 638    | 9        | 12        |
+| 22  | Tic-tac-toe    | Tic-tac-toe_negative_26_variant1| 652    | 9        | 26        |
+| 23  | Tic-tac-toe    | Tic-tac-toe_negative_32_variant1| 658    | 9        | 32        |
+| 24  | Tic-tac-toe    | Tic-tac-toe_negative_54_variant1| 680    | 9        | 54        |
+| 25  | Tic-tac-toe    | Tic-tac-toe_negative_69_variant1| 695    | 9        | 69        |
+| 26  | Vote           | Vote_republican_29_variant1| 296      | 16       | 29        |
+| 27  | Zoo            | Zoo_variant1               | 101      | 16       | 17        |
 
 # Numerical datasets
 
