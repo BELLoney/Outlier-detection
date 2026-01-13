@@ -16,6 +16,7 @@ All datasets are divided into two main folders:
 **trandata/:** Contains the preprocessed data ready for model input. The preprocessing steps are as follows:
 
 **Numerical features**: Undergo Min-Max normalization to scale values to the range [0, 1].
+
 **Nominal features**: Undergo integer encoding, where distinct categories are represented by unique integers.
 
 **The last column of the data matrix is the true label, where **1 denotes outliers** and **0 denotes inliers.**
