@@ -9,11 +9,17 @@ Most of these data sets are used for the evaluation of classification and cluste
 
 The method randomly downsamples a particular class to produce outliers while preserving all objects of the remaining classes to form an outlier detection data set. In addition, for the missing values of data set, this paper uses the maximum probability value method to complete the missing value, that is, the value of attribute with the highest frequency on other objects is used to fill the missing attribute value [4,5].
 
-**The last column of the data matrix is the true label, where 1 denotes outliers and 0 denotes inliers.**
+# Dataset Organization
+The dataset is divided into two main folders:
 
-**The Min-Max normalization is applied to numerical features, transforming values to the range [0, 1].**
+original/: Contains the raw, unprocessed data. Files are typically named with the suffix "ori.csv".
 
-**For nominal features, integer encoding is used where each distinct category is assigned a unique integer identifier for computational compatibility.**
+trandata/: Contains the preprocessed data ready for model input. The preprocessing steps are as follows:
+
+Numerical features: Undergo Min-Max normalization to scale values to the range [0, 1].
+Nominal features: Undergo integer encoding, where distinct categories are represented by unique integers.
+
+**The last column of the data matrix is the true label, where **1 denotes outliers** and **0 denotes inliers.**
 
 The details of data preprocessing and description are shown as follows.
 
