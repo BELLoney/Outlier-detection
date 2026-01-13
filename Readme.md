@@ -11,7 +11,9 @@ The method randomly downsamples a particular class to produce outliers while pre
 
 **The last column of the data matrix is the true label, where 1 denotes outliers and 0 denotes inliers.**
 
-**-ori.csv represents the original dataset and the rest represent the results of minimum-maximum normalization.**
+**The Min-Max normalization is applied to numerical features, transforming values to the range [0, 1].**
+
+**For nominal features, integer encoding is used where each distinct category is assigned a unique integer identifier for computational compatibility.**
 
 The details of data preprocessing and description are shown as follows.
 
