@@ -19,7 +19,7 @@ All datasets are divided into two main folders:
 
 **Nominal features**: Undergo integer encoding, where distinct categories are represented by unique integers.
 
-**The last column of the data matrix is the true label, where **1 denotes outliers** and **0 denotes inliers.**
+The last column of the data matrix is the true label, where **1 denotes outliers** and **0 denotes inliers.**
 
 The details of data preprocessing and description are shown as follows.
 
