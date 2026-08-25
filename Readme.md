@@ -61,7 +61,7 @@ The details of data preprocessing and description are shown as follows.
 
 | No. | New Datasets | #Objects | #Nominal | #Outliers |
 |-----|--------------|----------|----------|-----------|
-| 1 | Audiology_variant1 | 226 | 69 | 53 |
+| 1 | Audiology_variant1 | 226 | 69 | 57 |
 | 2 | Breast cancer_variant1 | 286 | 9 | 85 |
 | 3 | Chess_nowin_16_variant1 | 1685 | 36 | 16 |
 | 4 | Chess_nowin_34_variant1 | 1703 | 36 | 34 |
